@@ -1,0 +1,13 @@
+state={
+	id=823
+	name="STATE_823"
+	history={
+		owner = ELY
+		controller = ELY
+	}	
+	provinces={
+		1815 3111 3537 4290 6379 11220 11295
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

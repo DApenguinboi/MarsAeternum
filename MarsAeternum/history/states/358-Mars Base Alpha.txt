@@ -1,0 +1,30 @@
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		steel=13 # was: 24.000
+	}
+	
+	state_category = megalopolis
+
+	history={
+		owner = GCC
+		victory_points = {
+			3878 30.0 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 7
+			dockyard = 3
+			air_base = 10
+
+			}
+
+		}
+		add_core_of = GCC
+	provinces={
+		737 1539 3878 4063 4767 13176 13190 13213 13240 13285
+	}
+	manpower=12588061
+	buildings_max_level_factor=1.000

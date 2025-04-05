@@ -1,0 +1,35 @@
+
+state={
+	id=57
+	name="STATE_57"
+	manpower = 5109333
+	state_category = large_city
+
+	history={
+		owner = FOT
+		victory_points = {
+			495 5 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = FOT
+		add_core_of = SSR
+
+		1939.1.1 ={
+			buildings = {
+				radar_station = 1
+				arms_factory = 6
+				industrial_complex = 3
+			}
+		}
+	}
+
+	provinces={
+		495 1003 1050 1139 1592 2581 2749 2823 2839 2969 4248 4915 5102 6785 7992 8689 9229 14860 14881 14939
+	}
+}

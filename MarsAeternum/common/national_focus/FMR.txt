@@ -1,0 +1,96 @@
+﻿focus_tree = {
+	id = FMR_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FMR
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+
+	focus = {
+		id = buckmans_bite
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 3
+		y = 5
+		relative_position_id = FMR_empower_the_workers
+		
+		available = {
+			NOT = { is_in_faction_with = GCC }
+			NOT = { has_country_flag = mca_enforced_our_loyalty }
+		}
+		
+		bypass = {
+
+		}
+		
+		cost = 10
+		prerequisite = { focus = FMR_workers_paradise }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = GCC
+				type = puppet_wargoal_focus
+				expire = 0 
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+				GCC = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+	
+	focus = {
+		id = buckmans_bark
+		icon = focus_eng_motion_of_no_confidence
+		x = 5
+		y = 7
+		relative_position_id = buckman's_bite
+		
+		available = {
+			NOT = { is_in_faction_with = GCC }
+			NOT = { has_country_flag = mca_enforced_our_loyalty }
+		}
+		
+		bypass = {
+
+		}
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = GCC
+				type = puppet_wargoal_focus
+				expire = 0 
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+				GCC = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+
+
+
+
+}		

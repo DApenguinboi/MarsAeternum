@@ -1,0 +1,22 @@
+state={
+	id=820
+	name="STATE_820"
+	history={
+		owner = GAR
+		controller = GAR
+		add_core_of = GAR	
+	victory_points = {
+			10737 5 
+	}
+	buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2  
+			}
+		}
+	provinces={
+		2320 5961 6801 10725 10737 10757 10790
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

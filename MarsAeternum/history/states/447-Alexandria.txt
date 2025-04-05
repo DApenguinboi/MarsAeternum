@@ -1,0 +1,30 @@
+
+state={
+	id=447
+	name="STATE_447"
+	manpower = 3859239
+	resources={
+		oil=1 # was: 2
+	}
+	
+	state_category = large_city
+
+	history={
+		owner = FOT
+		
+		victory_points = {
+			4076 10 
+		}	
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 6
+		}
+
+		add_core_of = FOT
+	}
+
+	provinces={
+		221 346 460 746 1185 1255 2090 2238 2281 2297 2360 2944 3336 3499 4024 4076 4301 4576 4669 4898 5345 5954 6109 6498 8123 8179 9137 9385 9864 14830 14865 14942 14946
+	}
+}

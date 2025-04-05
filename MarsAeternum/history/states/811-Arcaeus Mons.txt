@@ -1,0 +1,26 @@
+state={
+	id=811
+	name="STATE_811"
+	history={
+		owner = CST
+		controller = CST
+		add_core_of = CST
+	victory_points = {
+		2664 45
+		
+	}
+	buildings = {
+			infrastructure = 9
+			arms_factory = 3
+			industrial_complex = 3
+			anti_air_building = 5
+			radar_station = 1
+			air_base = 10
+			}
+		}
+	provinces={
+		250 884 1151 2664 2995 3473 4029 4090 4542 5806 11790 11936 11937 11999
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+

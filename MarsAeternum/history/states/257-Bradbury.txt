@@ -1,0 +1,27 @@
+
+state={
+	id=257
+	name="STATE_257" # Tambov
+	manpower = 1779583
+	
+	state_category = rural
+	
+	resources={
+		chromium=7 # was: 10
+	}
+
+	history={
+		owner = FMR
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = FMR
+		victory_points = {
+			11351 1
+		}
+	}
+
+	provinces={
+		6024 7421 11257 11287 11296 11316 11351
+	}
+}

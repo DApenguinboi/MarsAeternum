@@ -1,0 +1,26 @@
+
+state={
+	id=765
+	name="STATE_765"
+	manpower = 51600
+	state_category = large_city
+
+	history={
+		add_core_of = FOT
+		add_core_of = LAI
+		owner = FOT
+		victory_points = {
+			8051 10
+		}
+		victory_points = {
+			708 3 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		150 543 632 708 1687 1888 3904 4261 6198 8051 9024 14812 14831 14849 14856
+	}
+}

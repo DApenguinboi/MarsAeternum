@@ -1,0 +1,13 @@
+state={
+	id=824
+	name="STATE_824"
+	history={
+		owner = REM
+		controller = REM
+	}	
+	provinces={
+		3688 6297 10899
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

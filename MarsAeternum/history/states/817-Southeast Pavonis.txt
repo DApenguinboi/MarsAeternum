@@ -1,0 +1,14 @@
+state={
+	id=817
+	name="STATE_817"
+	history={
+		owner = CST
+		controller = CST
+		add_core_of = CST
+	}
+	provinces={
+		215 675 4157 4930 6368 9141 9195 12329 12405 12465 12532
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+

@@ -1,0 +1,19 @@
+state={
+	id=827
+	name="STATE_827"
+	
+	state_category = large_city
+	
+	history={
+		owner = ELY
+		controller = ELY
+		victory_points = {
+			11050 10
+		}
+	}
+	provinces={
+		2967 3276 4186 7398 7588 8922 10981 11006 11038 11050 11051 11071 11080 11095 11106 11125
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

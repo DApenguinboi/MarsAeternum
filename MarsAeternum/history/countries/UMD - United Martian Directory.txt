@@ -1,0 +1,36 @@
+﻿capital = 64
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 60
+	communism = 20
+}
+
+
+add_ideas = {
+	sour_loser
+	general_staff
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+
+create_country_leader = {
+	name = "Ulick Varange"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "portrait_RAJ_louis_mountbatten.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		dictator
+	}
+}
+

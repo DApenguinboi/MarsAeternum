@@ -1,0 +1,144 @@
+#reload countrycolors
+
+
+MPR = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+
+GCC = {
+	color = rgb { 145 163 176  }
+	color_ui = rgb { 186 205 219 }
+}
+
+EHC = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+	
+IEF = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+	
+FMR = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+	
+MCA = {	color = rgb { 54 167 156 }
+		color_ui = rgb { 70 217 203 }
+}
+
+PGM = {
+	color = hsv { 0.18 0.6 0.9 } #255 244 190
+	color_ui = hsv { 0.18 0.3 0.9 }
+}
+
+UMD = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+
+MGI = {
+	color = rgb { 160  160  160 }
+	color_ui = rgb { 160  160  160 }
+	
+}
+
+MMA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+	
+}
+
+MRC = {
+    color = rgb { 195 236 230 } # The colors are set to be more are less what we are used to
+    color_ui = rgb { 225 255 255 }
+	
+}
+
+COM = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+	
+}
+
+MFC = {
+	color = rgb { 255 204 153 }
+	color_ui = rgb { 255 204 153 }
+}
+
+EMJ = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+MAF = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
+}
+
+CST = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
+
+LOH = {
+	color = rgb { 11 132 112 }
+	color_ui = rgb { 11 132 112 }
+}
+
+MAN = {
+	color = rgb { 7 7 239 }
+	color_ui = rgb { 7 7 239 }
+}
+
+GAR = {
+	color = rgb { 80 159 90 }
+	color_ui = rgb { 104 207 117 }
+}
+
+DEV = {
+	color = HSV { 0 0 0 }
+	color_ui = rgb { 138 155 116 }
+}
+
+YAK = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
+
+FOT = {
+	color = rgb { 172 122 88 }
+	color_ui = rgb { 172 122 88 }
+}
+
+LEI = {
+	color = rgb { 145 157 236 }
+	color_ui = rgb { 189 204 255 }
+}
+FNI = {
+	color = rgb { 249 146 98 }
+	color_ui = rgb { 255 190 127 }
+}
+SSR = {
+	color = rgb { 222 187 91 }
+	color_ui = rgb { 255 243 118 }
+}
+
+ELY = {
+	#color = HSV { 0.1 0.15 0.4 }
+	color = rgb { 108 140 42 }
+	color_ui = rgb { 209 247 133 }
+}
+
+REM = {
+	color = rgb { 100  125  175 }
+	color_ui = rgb { 100  125  175 }
+}
+
+MEM = {
+	color = rgb { 0  80  230 }
+	color_ui = rgb { 0  80  230 }	
+}

@@ -1,0 +1,29 @@
+state={
+	id=216
+	name="STATE_216"
+	
+	state_category = large_city
+
+	history={
+		owner = ELY
+		victory_points = {
+			11159 10 
+		}
+		victory_points = {
+			11313 1 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+
+		}
+		add_core_of = ELY
+
+	}
+
+	provinces={
+		3006 4039 4243 5776 6760 7264 8580 8971 9775 11159 11212 11221 11298 11313  
+	}
+	manpower=229564
+	buildings_max_level_factor=1.000
+}

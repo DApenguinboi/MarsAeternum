@@ -1,0 +1,242 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "MPR"
+		default = yes
+		
+		"MPR"={
+			history = "MPR_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"GCC"={
+			history = "GCC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"MGI"={
+			history = "MGI_GATHERING_STORM_DESC"
+			ideology = neo-feudalism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"UMD"={
+			history = "UMD_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"FMR"={
+			history = "FMR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"MCA"={
+			history = "MCA_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"PGM"={
+			history = "PGM_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		# minors from DLC ####
+		 
+		"EHC"={
+			minor = yes
+			history = "EHC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"IEF"={
+			minor = yes
+			history = "IEF_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"MMA"={
+			minor = yes
+			history = "MMA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"MRC"={
+			minor = yes
+			history = "MRC_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"COM"={
+			minor = yes
+			history = "COM_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"EMJ"={
+			minor = yes
+			history = "EMJ_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"MAF"={
+			minor = yes
+			history = "MAF_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"CST"={
+			minor = yes
+			history = "CST_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"YAK"={
+			minor = yes
+			history = "YAK_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"FOT"={
+			minor = yes
+			history = "ELY_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"ELY"={
+			minor = yes
+			history = "ELY_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

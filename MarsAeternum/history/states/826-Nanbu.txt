@@ -1,0 +1,22 @@
+state={
+	id=826
+	name="STATE_826"
+	
+	state_category = rural
+		
+	history={
+		owner = ELY
+		controller = ELY
+		victory_points = {
+			6880 10 
+		}
+		victory_points = {
+			11388 5
+		}
+	}
+	provinces={
+		638 4734 5020 5610 6880 6815 7553 11343 11355 11388 11413 11421 11429
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

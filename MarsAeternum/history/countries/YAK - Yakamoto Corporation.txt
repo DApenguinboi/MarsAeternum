@@ -1,0 +1,39 @@
+﻿capital = 825
+
+oob = "JAP_1936"
+
+set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
+set_war_support = 0.8
+
+set_research_slots = 4
+set_fuel_ratio = 1.0
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+
+	JAP_zaibatsus
+
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 100
+}
+
+create_country_leader = {
+	name = "Yakamoto Chikara"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Japan_Hasegawa_Kiyoshi.dds"
+	expire = "2989.1.1"
+	ideology = fascism_ideology
+	traits = {
+		sins_of_the_father
+	}
+}
+

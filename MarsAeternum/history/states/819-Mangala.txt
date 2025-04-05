@@ -1,0 +1,25 @@
+state={
+	id=819
+	name="STATE_819"
+	history={
+		owner = MAN
+		controller = MAN
+		add_core_of = MAN
+	victory_points = {
+		9696 50
+	}
+	buildings = {
+			infrastructure = 9
+			arms_factory = 3
+			industrial_complex = 3
+			anti_air_building = 5
+			radar_station = 1
+			air_base = 10
+			}
+		}
+	provinces={
+		9696
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

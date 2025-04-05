@@ -1,0 +1,16 @@
+state={
+	id=825
+	name="STATE_825"
+	history={
+		owner = YAK
+		controller = YAK
+		victory_points = {
+			11025 50
+		}
+	}
+	provinces={
+		705 3632 4229 4325 4560 6870 7345 8044 8827 9877 10977 11025 11013 11049 11055 11122 11136
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=822
+	name="STATE_822"
+	history={
+		owner = MEM
+		controller = MEM
+	}	
+	provinces={
+		1633 11573
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

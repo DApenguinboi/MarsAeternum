@@ -1,0 +1,95 @@
+﻿capital = 459
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 5
+	fascism = 5
+	communism = 85
+	neutrality = 5
+}
+
+create_country_leader = {
+	name = "Stavanger Morton"
+	desc = "POLITICS_STAVANGER_MORTON_DESC"
+	picture = "Portrait_USA_Generic_1.dds"
+	ideology = stalinism
+	traits = {
+		staunch_stalinist 
+		veteran_communist 
+		retired_officer 
+		great_war_hero 
+		revolutionary_general 
+		militant_socialist 
+	}
+}
+
+2939.1.1 = {
+	set_politics = {
+		ruling_party = communism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 25
+		fascism = 5
+		communism = 65
+		neutrality = 5
+	}
+}
+create_country_leader = {
+	name = "Roberto Escuela"
+	desc = "POLITICS_ROBERTO_ESCUELA_DESC"
+	picture = "Portrait_South_America_Generic_1.dds"
+	expire = "2965.1.1"
+	ideology = socialism
+	traits = { 
+		leader_of_the_agrarian_union
+		retired_officer  
+		stout_defender
+	}
+}
+create_country_leader = {
+	name = "Anton Kearney"
+	desc = "Anton Kearney is a Strasserist and a Revisionist"
+	picture = "portrait_GER_otto_strasser.dds"
+	expire = "2965.1.1"
+	ideology = gen_nazism
+	traits = { 
+		dictator
+		statism_adept
+		headstrong
+	}
+}
+create_country_leader = {
+	name = "Stavanger Morton"
+	desc = "POLITICS_STAVANGER_MORTON_DESC"
+	picture = "Portrait_USA_Generic_1.dds"
+	expire = "2965.1.1"
+	ideology = stalinism
+	traits = { 
+		ambitious_union_boss
+		staunch_stalinist 
+		veteran_communist 
+		retired_officer 
+		revolutionary_general 
+		militant_socialist 
+	}
+}
+create_country_leader = {
+	name = "Anarchist Commune"
+	desc = "A group of anarchists"
+	picture = "portrait_spr_anarchist_commune.dds"
+	expire = "1965.1.1"
+	ideology = anarchism
+	traits = {
+		anarchist_zeal
+		anti_fascist_committee
+	}
+}
