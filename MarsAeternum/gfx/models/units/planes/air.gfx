@@ -1,0 +1,12 @@
+objectTypes = {
+	pdxmesh = {
+		name = "air_fighter_1_mesh"
+		file = "gfx/models/test_object.mesh" #air_fighter.mesh
+		scale = 0.0 #0.1
+	}
+	pdxmesh = {
+		name = "air_bomber_1_mesh"
+		file = "gfx/models/test_object.mesh" #air_bomber.mesh
+		scale = 0.0 #0.1
+	}
+}

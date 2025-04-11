@@ -1,0 +1,27 @@
+objectTypes = {
+	####ghouls
+	pdxmesh = {
+		name = "feralghoul_mesh"
+		file = "gfx/models/owbentity/infantry/ghoul/ghoul_infantry.mesh"
+		#scale = 1.7
+
+
+		animation = { id = "idle"			type = "ghoul_idle_anim" }
+		animation = { id = "idle2"			type = "ghoul_idle2_anim" }
+		animation = { id = "move"			type = "ghoul_move_anim" }
+		animation = { id = "charge"			type = "ghoul_charge_anim" }
+		animation = { id = "attack"			type = "ghoul_attack_anim" }
+		animation = { id = "defend"			type = "ghoul_attack_anim" }
+		animation = { id = "training"			type = "ghoul_training_anim" }
+		animation = { id = "jumping_jacks"			type = "ghoul_training_anim" }
+		animation = { id = "pushup"			type = "ghoul_training_anim" }
+		animation = { id = "retreat"		type = "ghoul_retreat_anim" }
+
+		meshsettings = {
+			texture_diffuse = "ghoul_d.dds"
+			texture_normal = "ghoul_n.dds"
+			texture_specular = "ghoul_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

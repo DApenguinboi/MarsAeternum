@@ -27,6 +27,7 @@ create_country_leader = {
 		inexperienced_imperialist
 		empire_builder
 		warrior_code
+		nationalist_symbol
 	}
 }
 

@@ -1,0 +1,10 @@
+entity = {
+	name = "be_light_plane_entity"
+	pdxmesh = "air_fighter_1_mesh"
+	scale = 0.0 #0.1
+}
+entity = {
+	name = "be_medium_plane_entity"
+	pdxmesh = "air_bomber_1_mesh"
+	scale = 0.0 #0.1
+}

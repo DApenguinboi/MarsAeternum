@@ -1,0 +1,27 @@
+animation = {
+	name = "wagon_1_idle"
+	file = "wagon_1_idle.anim"
+}
+
+animation = {
+	name = "wagon_1_moving"
+	file = "wagon_1_moving.anim"
+}
+
+entity = {
+	name = "wagon_1_entity"
+	pdxmesh = "wagon_1_mesh"
+	scale = 0.2
+
+	default_state = "idle"
+	
+	state = { 
+		name = "idle"
+		event = { 
+			trigger_once = no 
+			sound = { 
+				soundeffect = "Generic_car_01_Moving" 
+			} 
+		}
+	}
+}

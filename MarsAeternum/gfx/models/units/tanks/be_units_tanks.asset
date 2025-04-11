@@ -1,0 +1,15 @@
+entity = {
+	name = "be_tank_entity"
+	pdxmesh = "tank_mesh"
+	scale = 0.0 #0.15
+}
+entity = {
+	name = "be_motorized_entity"
+	pdxmesh = "motorized_mesh"
+	scale = 0.0 #0.15
+}
+entity = {
+	name = "be_walker_entity"
+	pdxmesh = "walker_mesh"
+	scale = 0.0 #0.15
+}

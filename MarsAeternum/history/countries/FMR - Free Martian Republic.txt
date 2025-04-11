@@ -16,12 +16,17 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Horst Buckman"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+	desc = "POLITICS_HORST_BUCKMAN_DESC"
 	picture = "portrait_horst_buckman.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
+		the_gentleman_president
+		british_bulldog
 		militant_socialist
+		retired_officer 
+		democratic_reformer
+		tenacious_negotiator
 	}
 }
 
@@ -45,18 +50,23 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-		staunch_stalinist
+		reluctant_stalinist
+		revolutionary_culture_minister
 	}
 }
 
 create_country_leader = {
-	name = "Abraham Rademaker"
+	name = "Cornelius Chizever"
 	desc = "POLITICS_HARRY_POLLITT_DESC"
-	picture = "portrait_spr_jose_miaja.dds"
+	picture = "portrait_ARG_marcelo_t_de_alvear.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = moderatism
 	traits = {
-		staunch_stalinist
+		genial_anti_revolutionary
+		smooth_talking_con_man
+		backroom_backstabber
+		backroom_windbag
+		propaganda_bungler
 	}
 	
 create_field_marshal = {

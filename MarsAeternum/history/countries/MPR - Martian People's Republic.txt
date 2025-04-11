@@ -51,7 +51,9 @@ create_country_leader = {
 	ideology = socialism
 	traits = { 
 		leader_of_the_agrarian_union
-		retired_officer  
+		protector_of_the_campesinos
+		retired_officer
+		militant_socialist
 		stout_defender
 	}
 }

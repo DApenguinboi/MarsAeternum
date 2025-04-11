@@ -1,0 +1,17 @@
+objectTypes = {
+	pdxmesh = {
+		name = "tank_mesh"
+		file = "gfx/models/test_object.mesh" #tank.mesh
+		scale = 0.0 #0.1
+	}
+	pdxmesh = {
+		name = "motorized_mesh"
+		file = "gfx/models/test_object.mesh" #motorized.mesh
+		scale = 0.0 #0.1
+	}
+	pdxmesh = {
+		name = "walker_mesh"
+		file = "gfx/models/test_object.mesh" #walker.mesh
+		scale = 0.0 #0.1
+	}
+}
