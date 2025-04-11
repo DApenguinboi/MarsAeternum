@@ -1,0 +1,16 @@
+version="0.1"
+tags={
+	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Historical"
+	"Map"
+	"National Focuses"
+	"Technologies"
+	"Ideologies"
+	"Military"
+	"Sound"
+}
+name="Mars Aeternum: War for the Red Planet"
+supported_version="1.10.5"
+path="D:/Games/Paradox Interactive/Hearts of Iron IV/mod/MarsAeternum"
