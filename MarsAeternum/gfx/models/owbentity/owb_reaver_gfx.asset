@@ -1,0 +1,185 @@
+### BASE INFANTRY
+entity = {
+	name = "reaver_gfx_infantry_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+	clone = "owb_infantry_melee_1_entity"
+
+}
+###BASIC MELEE
+entity = {
+	name = "reaver_gfx_infantry_1_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+	clone = "owb_infantry_melee_1_entity"
+
+}
+###PIPE
+entity = {
+	name = "reaver_gfx_infantry_2_entity"
+	clone = "owb_infantry_ballistic_1_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###BASIC FIREARM
+entity = {
+	name = "reaver_gfx_infantry_3_entity"
+	clone = "owb_infantry_ballistic_2_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###MELEE 2
+entity = {
+	name = "reaver_gfx_infantry_4_entity"
+	clone = "owb_infantry_melee_2_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###BALLISTIC 2
+entity = {
+	name = "reaver_gfx_infantry_5_entity"
+	clone = "owb_infantry_ballistic_3_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###MELEE 3
+entity = {
+	name = "reaver_gfx_infantry_6_entity"
+	clone = "owb_infantry_melee_3_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###MELEE 4
+entity = {
+	name = "reaver_gfx_infantry_7_entity"
+	clone = "owb_infantry_melee_4_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###BALLISTIC 3
+entity = {
+	name = "reaver_gfx_infantry_8_entity"
+	clone = "owb_infantry_ballistic_4_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###BALLISTIC 4
+entity = {
+	name = "reaver_gfx_infantry_9_entity"
+	clone = "owb_infantry_ballistic_5_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###LASER 1
+entity = {
+	name = "reaver_gfx_infantry_10_entity"
+	clone = "owb_infantry_laser_1_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###LASER 2
+entity = {
+	name = "reaver_gfx_infantry_11_entity"
+	clone = "owb_infantry_laser_2_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###LASER 3
+entity = {
+	name = "reaver_gfx_infantry_12_entity"
+	clone = "owb_infantry_laser_3_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+
+###LASER 4
+entity = {
+	name = "reaver_gfx_infantry_13_entity"
+	clone = "owb_infantry_laser_4_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+
+}
+###POWER ARMOR
+entity = {
+	name = "reaver_gfx_power_armour_entity"
+	pdxmesh = "t51pitt_mesh"
+	clone = "owb_infantry_melee_4_entity"
+
+}
+
+####ROBOTS
+####PROTECTRON
+entity = {
+	name = "reaver_gfx_support_robot_entity"
+	clone = "support_robot_0_entity"
+}
+####SECURITRON
+entity = {
+	clone = "combat_robot_entity"
+	name = "reaver_gfx_combat_robot_entity"
+}
+
+###TANKS
+#HEAVY
+entity = {
+	name = "reaver_gfx_heavy_armor_entity"
+	clone = "owb_heavy_armor_entity"
+}
+
+###MOTORIZED
+entity = {
+		name = "reaver_gfx_motorized_entity"
+		clone = "owb_motorized_entity"
+		attach = { 	name = "Human"			Human = "reaver_gfx_infantry_bike_entity" }
+}
+entity = {
+		name = "reaver_gfx_motorized_2_entity"
+		clone = "owb_motorized_2_entity"
+		attach = { 	name = "Human"			Human = "reaver_gfx_infantry_bike_2_entity" }
+}
+entity = {
+		name = "reaver_gfx_motorized_3_entity"
+		clone = "owb_motorized_3_entity"
+}
+entity = {
+		name = "reaver_gfx_motorized_4_entity"
+		clone = "owb_motorized_4_entity"
+}
+entity = {
+		name = "reaver_gfx_motorized_5_entity"
+		clone = "owb_motorized_5_entity"
+}
+entity = {
+	name = "reaver_gfx_infantry_mech_unit_entity"
+	clone = "infantry_mech_unit_entity"
+}
+entity = {
+		name = "reaver_gfx_motorized_6_entity"
+		clone = "owb_motorized_6_entity"
+}
+entity = {
+		name = "reaver_gfx_motorized_7_entity"
+		clone = "owb_motorized_7_entity"
+}
+entity = {
+		name = "reaver_gfx_motorized_8_entity"
+		clone = "owb_motorized_8_entity"
+}
+entity = {
+		name = "reaver_gfx_motorized_9_entity"
+		clone = "owb_motorized_9_entity"
+}
+entity = {
+		name = "reaver_gfx_motorized_10_entity"
+		clone = "owb_motorized_10_entity"
+}
+entity = {
+	clone = "owb_infantry_bike_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+	name = "reaver_gfx_infantry_bike_entity"
+
+}
+entity = {
+	clone = "owb_infantry_bike_2_entity"
+	pdxmesh = "reaver_infantry_rifle_mesh"
+	name = "reaver_gfx_infantry_bike_2_entity"
+
+}

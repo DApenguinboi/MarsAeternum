@@ -1,0 +1,195 @@
+entity = {
+	name = nuclear_crater
+	pdxmesh = nuclear_crater_mesh
+	default_state = "idle"
+	state = { name = "idle" state_time = 2 looping = no
+		event = { time = 0 particle = "owb_radiation_storm" keep_particle = yes }
+		event = { trigger_once = yes sound = { soundeffect = "weather_lightning_storm" } }
+	}
+}
+
+entity = {
+	name = "owb_radiation_entity_small"
+	cull_radius = 10
+	scale = 0.3
+	default_state = "idle"
+	state = { name = "idle" state_time = 2 looping = no
+		event = { time = 0 particle = "owb_radiation_storm" keep_particle = yes }
+		event = { trigger_once = yes sound = { soundeffect = "weather_lightning_storm" } }
+	}
+}
+
+entity = {
+	name = "owb_waste_particle_entity"
+	#cull_radius = 10
+	scale = 0.3
+	default_state = "idle"
+	state = { name = "idle" state_time = 2 looping = no
+		event = { time = 0 particle = "nuclear_waste_particle" keep_particle = yes }
+		event = { trigger_once = yes sound = { soundeffect = "weather_lightning_storm" } }
+	}
+}
+entity = {
+	name = "hoover_dam_entity"
+	pdxmesh = "hoover_dam_mesh"
+	scale = 0.65
+}
+entity = {
+	name = "chichen_itza_entity"
+	pdxmesh = "chichen_itza"
+	scale = 0.65
+}
+entity = {
+	name = "halberd_entity"
+	pdxmesh = "halberd_mesh"
+	scale = 1.1
+}
+entity = {
+	name = "the_glow_entity"
+	pdxmesh = "the_glow_mesh"
+	scale = 0.65
+}
+entity = {
+	name = "lost_hills_bunker_entity"
+	pdxmesh = "lost_hills_bunker_mesh"
+}
+entity = {
+	name = "vault_city_entity"
+	pdxmesh = "vault_city_mesh"
+}
+entity = {
+	name = "vault_council_entity"
+	pdxmesh = "vault_council_mesh"
+}
+entity = {
+	name = "reno_sign_entity"
+	pdxmesh = "reno_mesh"
+}
+entity = {
+	name = "arroyo_head_entity"
+	pdxmesh = "arroyo_head_mesh"
+}
+entity = {
+	name = "novac_entity"
+	pdxmesh = "novac_mesh"
+}
+entity = {
+	name = "shady_entity"
+	pdxmesh = "shady_mesh"
+}
+entity = {
+	name = "rushmore_entity"
+	pdxmesh = "rushmore_mesh"
+}
+entity = {
+	name = "cathedralcrater_entity"
+	pdxmesh = "cathedralcrater_mesh"
+}
+entity = {
+	name = "circus_entity"
+	pdxmesh = "circus_mesh"
+}
+entity = {
+	name = "darkpyramid_entity"
+	pdxmesh = "darkpyramid_mesh"
+}
+entity = {
+	name = "dome_entity"
+	pdxmesh = "dome_mesh"
+}
+entity = {
+	name = "junktown_entity"
+	pdxmesh = "junktown_mesh"
+}
+entity = {
+	name = "plaguewall_entity"
+	pdxmesh = "plaguewall_mesh"
+}
+entity = {
+	name = "wendover_entity"
+	pdxmesh = "wendover_mesh"
+}
+entity = {
+	name = "needle_entity"
+	pdxmesh = "needle_mesh"
+}
+entity = {
+	name = "dallas_entity"
+	pdxmesh = "dallas_mesh"
+}
+entity = {
+	name = "cross_entity"
+	pdxmesh = "cross_mesh"
+}
+entity = {
+	name = "alamo_entity"
+	pdxmesh = "alamo_mesh"
+}
+entity = {
+	name = "bighorn_entity"
+	pdxmesh = "bighorn_mesh"
+}
+entity = {
+	name = "goldengate_entity"
+	pdxmesh = "goldengate_mesh"
+}
+entity = {
+	name = "deviltower_entity"
+	pdxmesh = "deviltower_mesh"
+}
+
+entity = {
+	name = "black_mountain_entity"
+	pdxmesh = "black_mountain_mesh"
+}
+entity = {
+	name = "vault_generic_1_entity"
+	pdxmesh = "vault_generic_1_mesh"
+}
+
+entity = {
+	name = "vault_generic_2_entity"
+	pdxmesh = "vault_generic_2_mesh"
+}
+
+entity = {
+	name = "vault_generic_3_entity"
+	pdxmesh = "vault_generic_3_mesh"
+}
+entity = {
+	name = "lucky_38_entity"
+	pdxmesh = "lucky_38_mesh"
+}
+entity = {
+	name = helios1_building_entity
+	pdxmesh = helios_building_mesh
+	#state = { name = "idle" looping = no animation = "idle" next_state = "cooldown"
+	#	event = { time = 0.0  node = pannel.1 particle = "helios_laser_effect"  keep_particle = no sound = { soundeffect = "nuke" } }
+	#	event = { time = 1.0  node = pannel.002 particle = "helios_laser_effect"  keep_particle = no }
+	#	event = { time = 2.0  node = pannel.003 particle = "helios_laser_effect"  keep_particle = no }
+	#	event = { time = 3.0  node = pannel.004 particle = "helios_laser_effect"  keep_particle = no }
+	#	event = { time = 4.0  node = pannel.005 particle = "helios_laser_effect"  keep_particle = no }
+	#	event = { time = 5.0  node = pannel.006 particle = "helios_laser_effect"  keep_particle = no }
+	#	event = { time = 6.0  node = pannel.007 particle = "helios_laser_effect"  keep_particle = no }
+	#	event = { time = 7.0  node = pannel.008 particle = "helios_laser_effect"  keep_particle = no }
+	#	event = { time = 0.0  node = dish particle = "helios_laser_large_effect"  keep_particle = no }
+	#	event = { time = 10.0 sound = { soundeffect = "nuke" } }
+	#	event = { time = 12.0 sound = { soundeffect = "nuke" } }
+	#}
+	#state = { name = "idle" looping = yes }
+}
+entity = {
+	name = "helios_impact_entity"
+	pdxmesh = "nuke_mesh"
+	default_state = "attack"
+	state = { name = "attack" animation = attack looping = no
+		event = { time = 12.5 particle = "nuke_particle" keep_particle = yes sound = { soundeffect = "nuke" } }
+		event = { node = nuke time = 12.5 particle = "nuke_top_particle" keep_particle = yes light = nuke_light }
+
+	}
+	scale = 0.5
+}
+animation = {
+	name = "helios_1_idle"
+	file = "map_objects/helios_1/helios_1.anim"
+}

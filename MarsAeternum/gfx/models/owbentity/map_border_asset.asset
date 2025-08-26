@@ -1,0 +1,18 @@
+entity = {
+	name = owb_map_border_top_entity
+	pdxmesh = owb_map_border_top
+	scale = 1.0
+
+}
+entity = {
+	name = owb_map_border_bottom_entity
+	pdxmesh = owb_map_border_bottom
+	scale = 1.0
+
+}
+entity = {
+	name = owb_map_logo_entity
+	pdxmesh = owb_map_logo
+	scale = 0.95
+
+}

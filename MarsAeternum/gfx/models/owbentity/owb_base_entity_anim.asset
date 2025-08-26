@@ -1,0 +1,412 @@
+####Base Animations####
+###T_51
+animation = {
+	####internal reference name for .gfx
+	name = "fo4_t51_fire_anim"
+	###path reletive to this file's location
+	file = "powerarmor/fo4_t51_m_fire_anim.anim"
+}
+animation = {
+	name = "fo4_t51_idel1_anim"
+	file = "powerarmor/fo4_t51_m_idle_1_anim.anim"
+}
+animation = {
+	name = "fo4_t51_idel2_anim"
+	file = "powerarmor/fo4_t51_m_idle_2_anim.anim"
+}
+animation = {
+	name = "fo4_t51_retreat_anim"
+	file = "powerarmor/fo4_t51_m_retreat_anim.anim"
+}
+animation = {
+	name = "fo4_t51_running_anim"
+	file = "powerarmor/fo4_t51_m_running_anim.anim"
+}
+animation = {
+	name = "fo4_t51_walk_anim"
+	file = "powerarmor/fo4_t51_m_walk_anim.anim"
+}
+###Protectron
+animation = {
+	name = "protectron_walk_anim"
+	file = "robots/protectron_walk_anim.anim"
+}
+animation = {
+	name = "protectron_idle_anim"
+	file = "robots/protectron_idle_anim.anim"
+}
+animation = {
+	name = "protectron_idle_2_anim"
+	file = "robots/protectron_idle_2_anim.anim"
+}
+animation = {
+	name = "protectron_retreat_anim"
+	file = "robots/protectron_retreat_anim.anim"
+}
+animation = {
+	name = "protectron_attack_anim"
+	file = "robots/protectron_attack_anim.anim"
+}
+###Mr. Handy
+animation = {
+	name = "handy_idle_anim"
+	file = "robots/handy_idle.anim"
+}
+animation = {
+	name = "handy_move_anim"
+	file = "robots/handy_move.anim"
+}
+animation = {
+	name = "handy_charge_anim"
+	file = "robots/handy_charge.anim"
+}
+animation = {
+	name = "handy_charge_flamer_anim"
+	file = "robots/handy_charge_attack_flamer.anim"
+}
+animation = {
+	name = "handy_charge_saw_anim"
+	file = "robots/handy_charge_attack_saw.anim"
+}
+animation = {
+	name = "handy_charge_pincher_anim"
+	file = "robots/handy_charge_attack_pincher.anim"
+}
+animation = {
+	name = "handle_support_idle_anim"
+	file = "robots/handy_support_idle.anim"
+}
+animation = {
+	name = "handle_support_saw_anim"
+	file = "robots/handy_support_attack_flamer.anim"
+}
+animation = {
+	name = "handle_support_flamer_anim"
+	file = "robots/handy_support_attack_saw.anim"
+}
+###Securitron
+animation = {
+	name = "securitron_idle_anim"
+	file = "robots/securitron_idle1_animation_anim.anim"
+}
+animation = {
+	name = "securitron_idle_2_anim"
+	file = "robots/securitron_idle2_animation_anim.anim"
+}
+animation = {
+	name = "securitron_idle_3_anim"
+	file = "robots/securitron_idle3_animation_anim.anim"
+}
+animation = {
+	name = "securitron_idle_4_anim"
+	file = "robots/securitron_idle4_animation_anim.anim"
+}
+animation = {
+	name = "securitron_attack_anim"
+	file = "robots/securitron_attack_animation_anim.anim"
+}
+animation = {
+	name = "securitron_move_anim"
+	file = "robots/securitron_move_animation_anim.anim"
+}
+animation = {
+	name = "securitron_defend_anim"
+	file = "robots/securitron_defend_animation_anim.anim"
+}
+animation = {
+	name = "securitron_support_anim"
+	file = "robots/securitron_support_animation_anim.anim"
+}
+###Infantry Basics
+animation = {
+	name = "owb_infantry_rifle_march"
+	file = "infantry/owb_infantry_march.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_move"
+	file = "infantry/owb_infantry_move.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_death"
+	file = "infantry/owb_infantry_death.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_aim_exercise"
+	file = "infantry/owb_infantry_aim_exercise.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_attack_crouch"
+	file = "infantry/owb_infantry_attack_crouch.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_attack_stand"
+	file = "infantry/owb_infantry_attack_stand.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_charge"
+	file = "infantry/owb_infantry_charge.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_charge_shoot"
+	file = "infantry/owb_infantry_charge_shoot.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_guard"
+	file = "infantry/owb_infantry_guard.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_idle"
+	file = "infantry/owb_infantry_idle.anim"
+}
+animation = {
+	name = "owb_infantry_luchador_idle"
+	file = "infantry/owb_infantry_luchador_idle.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_training_idle"
+	file = "infantry/owb_infantry_training_idle.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_training_jumping"
+	file = "infantry/owb_infantry_training_jumping.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_training_pushup"
+	file = "infantry/owb_infantry_training_pushup.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_long_idle_1"
+	file = "infantry/owb_infantry_long_idle_1.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_long_idle_2"
+	file = "infantry/owb_infantry_long_idle_2.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_long_idle_3"
+	file = "infantry/owb_infantry_long_idle_3.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_long_idle_4"
+	file = "infantry/owb_infantry_long_idle_4.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_long_idle_5"
+	file = "infantry/owb_infantry_long_idle_5.anim"
+}
+animation = {
+	name = "owb_infantry_rifle_retreat"
+	file = "infantry/owb_infantry_retreat.anim"
+}
+animation = {
+	name = "owb_infantry_moto_move_1"
+	file = "infantry/owb_infantry_moto_move_1.anim"
+}
+animation = {
+	name = "owb_infantry_moto_idle"
+	file = "infantry/owb_infantry_moto_idle.anim"
+}
+animation = {
+	name = "owb_infantry_moto_move_2"
+	file = "infantry/owb_infantry_moto_move_2.anim"
+}
+##MELEE
+animation = {
+	name = "owb_melee_1h_attack_anim"
+	file = "infantry/owb_infantry_melee_1h_attack.anim"
+}
+animation = {
+	name = "owb_melee_1h_attack_idle_anim"
+	file = "infantry/owb_infantry_melee_1h_attack_idle.anim"
+}
+animation = {
+	name = "owb_melee_1h_charge_anim"
+	file = "infantry/owb_infantry_melee_1h_charge.anim"
+}
+animation = {
+	name = "owb_melee_1h_charge_attack_anim"
+	file = "infantry/owb_infantry_melee_1h_charge_attack.anim"
+}
+animation = {
+	name = "owb_melee_2h_attack_anim"
+	file = "infantry/owb_infantry_melee_2h_attack.anim"
+}
+animation = {
+	name = "owb_melee_2h_attack_idle_anim"
+	file = "infantry/owb_infantry_melee_2h_attack_idle.anim"
+}
+animation = {
+	name = "owb_melee_2h_charge_anim"
+	file = "infantry/owb_infantry_melee_2h_charge.anim"
+}
+animation = {
+	name = "owb_melee_2h_charge_attack_anim"
+	file = "infantry/owb_infantry_melee_2h_charge_attack.anim"
+}
+animation = {
+	name = "owb_melee_idle_anim"
+	file = "infantry/owb_infantry_melee_idle.anim"
+}
+animation = {
+	name = "owb_melee_idle_long_anim"
+	file = "infantry/owb_infantry_melee_idle_long.anim"
+}
+animation = {
+	name = "owb_melee_march"
+	file = "infantry/owb_infantry_melee_march.anim"
+}
+animation = {
+	name = "owb_infantry_mech"
+	file = "infantry/owb_infantry_mech_pose.anim"
+}
+animation = {
+	name = "sledge_idle_anim"
+	file = "weapons/super_sledge/sledge_idle.anim"
+}
+animation = {
+	name = "sledge_idle_attack_anim"
+	file = "weapons/super_sledge/sledge_idle_attack.anim"
+}
+animation = {
+	name = "sledge_charge_attack_anim"
+	file = "weapons/super_sledge/sledge_charge_attack.anim"
+}
+###PLANES
+#VERTIBIRD
+animation = {
+	name = "vertibird_idle_animation"
+	file = "vehicles/air_transport_4/transport.anim"
+}
+###VEHICLES
+#CHARIOTS
+animation = {
+	name = "chariot_idle_anim"
+	file = "vehicles/chariot_1/chariot_idle.anim"
+}
+animation = {
+	name = "chariot_move_anim"
+	file = "vehicles/chariot_1/chariot_move.anim"
+}
+animation = {
+	name = "chariot_frame_idle_anim"
+	file = "vehicles/chariot_1/chariot_frame_idle.anim"
+}
+animation = {
+	name = "chariot_frame_move_anim"
+	file = "vehicles/chariot_1/chariot_frame_move.anim"
+}
+animation = {
+	name = "chariot_frame_no_bike_anim"
+	file = "vehicles/chariot_1/chariot_frame_nobike.anim"
+}
+animation = {
+	name = "chariot_frame_on_chariot_anim"
+	file = "vehicles/chariot_1/chariot_frame_onchariot.anim"
+}
+animation = {
+	name = "chariot_2_idle_anim"
+	file = "vehicles/chariot_2/chariot_2_idle.anim"
+}
+animation = {
+	name = "chariot_2_move_anim"
+	file = "vehicles/chariot_2/chariot_2_move.anim"
+}
+animation = {
+	name = "chariot_2_frame_idle_anim"
+	file = "vehicles/chariot_2/chariot_2_frame_idle.anim"
+}
+animation = {
+	name = "chariot_2_frame_move_anim"
+	file = "vehicles/chariot_2/chariot_2_frame_move.anim"
+}
+animation = {
+	name = "chariot_2_frame_no_bike_anim"
+	file = "vehicles/chariot_2/chariot_2_frame_nobike.anim"
+}
+animation = {
+	name = "chariot_2_frame_on_chariot_anim"
+	file = "vehicles/chariot_2/chariot_2_frame_onchariot.anim"
+}
+#MOTO SCRAP BIKE
+animation = {
+	name = "moto_idle_anim"
+	file = "vehicles/moto_1/moto_idle.anim"
+}
+animation = {
+	name = "moto_move_anim"
+	file = "vehicles/moto_1/moto_move.anim"
+}
+animation = {
+	name = "moto_frame_idle_anim"
+	file = "vehicles/moto_1/moto_frame_idle.anim"
+}
+animation = {
+	name = "moto_frame_move_anim"
+	file = "vehicles/moto_1/moto_frame_move.anim"
+}
+animation = {
+	name = "moto_frame_no_bike_anim"
+	file = "vehicles/moto_1/moto_frame_nobike.anim"
+}
+#MECHANIZED
+#APC 1
+animation = {
+	name = "apc_1_idle_anim"
+	file = "vehicles/apc_1/apc_1_idle.anim"
+}
+animation = {
+	name = "apc_1_move_anim"
+	file = "vehicles/apc_1/apc_1_move.anim"
+}
+#APC 2
+animation = {
+	name = "apc_2_idle_anim"
+	file = "vehicles/apc_2/apc_2_idle.anim"
+}
+animation = {
+	name = "apc_2_move_anim"
+	file = "vehicles/apc_2/apc_2_move.anim"
+}
+#APC 3
+animation = {
+	name = "apc_3_idle_anim"
+	file = "vehicles/apc_3/apc_3_idle.anim"
+}
+animation = {
+	name = "apc_3_move_anim"
+	file = "vehicles/apc_3/apc_3_move.anim"
+}
+#APC 4
+animation = {
+	name = "apc_4_idle_anim"
+	file = "vehicles/apc_4/apc_4_idle.anim"
+}
+animation = {
+	name = "apc_4_move_anim"
+	file = "vehicles/apc_4/apc_4_move.anim"
+}
+#APC 5
+animation = {
+	name = "apc_5_idle_anim"
+	file = "vehicles/apc_5/apc_5_idle.anim"
+}
+animation = {
+	name = "apc_5_move_anim"
+	file = "vehicles/apc_5/apc_5_move.anim"
+}
+animation = {
+	name = "apc_5_attack_anim"
+	file = "vehicles/apc_5/apc_5_attack.anim"
+}
+animation = {
+	name = "apc_5_defend_anim"
+	file = "vehicles/apc_5/apc_5_standing_attack.anim"
+}
+animation = {
+	name = "owb_air_idle_anim"
+	file = "vehicles/air_fighter_1/air_idle_anim.anim"
+}
+animation = {
+	name = "owb_brahmin_walk_amin"
+	file = "map_objects/brahmin_caravan/brahmin_walk_amin.anim"
+}

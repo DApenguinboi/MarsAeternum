@@ -1,4 +1,4 @@
-﻿capital = 119
+﻿capital = 832
 
 oob = "CHI_1936"
 
@@ -29,7 +29,7 @@ create_country_leader = {
 	desc = "POLITICS_ZHANG_GUOTAO_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxist_leninism
 	traits = {
 		cornered_fox
 	}

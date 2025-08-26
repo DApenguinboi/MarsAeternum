@@ -1,0 +1,227 @@
+### BASE INFANTRY
+entity = {
+	name = "canada_gfx_infantry_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+	clone = "owb_infantry_melee_1_entity"
+
+}
+###BASIC MELEE
+entity = {
+	name = "canada_gfx_infantry_1_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+	clone = "owb_infantry_melee_1_entity"
+
+}
+###PIPE
+entity = {
+	name = "canada_gfx_infantry_2_entity"
+	clone = "owb_infantry_ballistic_1_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###BASIC FIREARM
+entity = {
+	name = "canada_gfx_infantry_3_entity"
+	clone = "owb_infantry_ballistic_2_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###MELEE 2
+entity = {
+	name = "canada_gfx_infantry_4_entity"
+	clone = "owb_infantry_melee_2_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###BALLISTIC 2
+entity = {
+	name = "canada_gfx_infantry_5_entity"
+	clone = "owb_infantry_ballistic_3_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###MELEE 3
+entity = {
+	name = "canada_gfx_infantry_6_entity"
+	clone = "owb_infantry_melee_3_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###MELEE 4
+entity = {
+	name = "canada_gfx_infantry_7_entity"
+	clone = "owb_infantry_melee_4_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###BALLISTIC 3
+entity = {
+	name = "canada_gfx_infantry_8_entity"
+	clone = "owb_infantry_ballistic_4_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###BALLISTIC 4
+entity = {
+	name = "canada_gfx_infantry_9_entity"
+	clone = "owb_infantry_ballistic_5_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###LASER 1
+entity = {
+	name = "canada_gfx_infantry_10_entity"
+	clone = "owb_infantry_laser_1_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###LASER 2
+entity = {
+	name = "canada_gfx_infantry_11_entity"
+	clone = "owb_infantry_laser_2_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###LASER 3
+entity = {
+	name = "canada_gfx_infantry_12_entity"
+	clone = "owb_infantry_laser_3_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+
+###LASER 4
+entity = {
+	name = "canada_gfx_infantry_13_entity"
+	clone = "owb_infantry_laser_4_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+
+}
+###POWER ARMOR
+entity = {
+	name = "canada_gfx_power_armour_entity"
+	pdxmesh = "t51pitt_mesh"
+	clone = "owb_infantry_melee_4_entity"
+
+}
+
+####ROBOTS
+####PROTECTRON
+entity = {
+	name = "canada_gfx_support_robot_entity"
+	clone = "support_robot_4_entity"
+}
+####SECURITRON
+entity = {
+	clone = "combat_robot_entity"
+	name = "canada_gfx_combat_robot_entity"
+}
+
+###TANKS
+#HEAVY
+entity = {
+	name = "canada_gfx_heavy_armor_entity"
+	clone = "owb_heavy_armor_entity"
+}
+
+###MOTORIZED
+entity = {
+		name = "canada_gfx_motorized_entity"
+		clone = "owb_snowmobile_frame_entity"
+		attach = { 	name = "Human"			Human = "canada_gfx_infantry_bike_entity" }
+}
+entity = {
+		name = "canada_gfx_motorized_2_entity"
+		clone = "owb_snowmobile_frame_entity"
+		attach = { 	name = "Human"			Human = "canada_gfx_infantry_bike_2_entity" }
+}
+entity = {
+		name = "canada_gfx_motorized_3_entity"
+		clone = "owb_motorized_3_entity"
+}
+entity = {
+		name = "canada_gfx_motorized_4_entity"
+		clone = "owb_motorized_4_entity"
+}
+entity = {
+		name = "canada_gfx_motorized_5_entity"
+		clone = "owb_motorized_5_entity"
+}
+entity = {
+	name = "canada_gfx_infantry_mech_unit_entity"
+	clone = "infantry_mech_unit_entity"
+}
+entity = {
+		name = "canada_gfx_motorized_6_entity"
+		clone = "owb_motorized_6_entity"
+}
+entity = {
+		name = "canada_gfx_motorized_7_entity"
+		clone = "owb_motorized_7_entity"
+}
+entity = {
+		name = "canada_gfx_motorized_8_entity"
+		clone = "owb_motorized_8_entity"
+}
+entity = {
+		name = "canada_gfx_motorized_9_entity"
+		clone = "owb_motorized_9_entity"
+}
+entity = {
+		name = "canada_gfx_motorized_10_entity"
+		clone = "owb_motorized_10_entity"
+}
+entity = {
+	clone = "owb_infantry_bike_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+	name = "canada_gfx_infantry_bike_entity"
+
+}
+entity = {
+	clone = "owb_infantry_bike_2_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+	name = "canada_gfx_infantry_bike_2_entity"
+
+}
+
+#HEAVY
+
+###MECHANIZED
+entity = {
+		name = "canada_gfx_apc_entity"
+		clone = "owb_mechanized_1_entity"
+		attach = { 	name = "infantry"			infantry = "canada_gfx_infantry_5_entity" }
+		attach = { 	name = "vehicle"			vehicle = "canada_gfx_apc_vehicle_1_entity" }
+}
+entity = {
+	name = "canada_gfx_apc_vehicle_1_entity"
+	clone = "owb_apc_entity"
+	attach = { name = "infantry_right" infantry_right = "canada_gfx_mech_1_infantry" }
+	attach = { name = "infantry_left" infantry_left = "canada_gfx_mech_1_infantry" }
+}
+entity = {
+	name = "canada_gfx_mech_1_infantry"
+	clone = "infantry_mech_unit_entity"
+	pdxmesh = "raider_infantry_rifle_mesh"
+}
+entity = {
+		name = "canada_gfx_apc_2_entity"
+		clone = "owb_mechanized_2_entity"
+		attach = { 	name = "infantry"			infantry = "canada_gfx_infantry_5_entity" }
+}
+entity = {
+		name = "canada_gfx_apc_3_entity"
+		clone = "owb_mechanized_3_entity"
+		attach = { 	name = "infantry"			infantry = "canada_gfx_infantry_5_entity" }
+}
+entity = {
+		name = "canada_gfx_apc_4_entity"
+		clone = "owb_mechanized_4_entity"
+		attach = { 	name = "infantry"			infantry = "canada_gfx_infantry_5_entity" }
+}
+entity = {
+		name = "canada_gfx_apc_5_entity"
+		clone = "owb_mechanized_5_entity"
+		attach = { 	name = "infantry"			infantry = "canada_gfx_infantry_5_entity" }
+}
+

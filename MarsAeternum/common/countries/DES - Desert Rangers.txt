@@ -1,0 +1,3 @@
+graphical_culture = des_gfx
+graphical_culture_2d = ncr_2d
+color = { 139 69 19 }

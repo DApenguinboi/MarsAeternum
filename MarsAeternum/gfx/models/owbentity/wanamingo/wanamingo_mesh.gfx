@@ -1,0 +1,22 @@
+objectTypes = {
+    ####wanamingo
+    pdxmesh = {
+        name = "wanamingo_mesh"
+        file = "gfx/models/owbentity/wanamingo/wanamingo.mesh"
+
+
+
+        animation = { id = "idle"            type = "wanamingo_idle" }
+        animation = { id = "move"            type = "wanamingo_walk" }
+        animation = { id = "attack"            type = "wanamingo_walk" }
+        animation = { id = "defend"            type = "wanamingo_walk" }
+        animation = { id = "retreat"        type = "wanamingo_walk" }
+
+        meshsettings = {
+            texture_diffuse = "wanamingo_d.dds"
+            texture_normal = "mirelurk_n.dds"
+            texture_specular = "mirelurk_s.dds"
+            shader = PdxMeshAdvanced
+        }
+    }
+}

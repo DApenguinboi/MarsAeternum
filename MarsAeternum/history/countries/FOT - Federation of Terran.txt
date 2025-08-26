@@ -145,7 +145,7 @@ set_convoys = 120
 	}
 
 	create_country_leader = {
-		name = "Joseph Hajek"
+		name = "Joseph Hayek"
 		desc = "POLITICS_ROBERTO_MARIA_ORTIZ_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 		expire = "1965.1.1"

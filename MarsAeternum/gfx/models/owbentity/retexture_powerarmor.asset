@@ -1,0 +1,11 @@
+entity = {
+	name = "NCR_power_armour_entity"
+	clone = "power_armour_entity"
+	pdxmesh = "NCR_powerarmor_t51_mesh"
+}
+
+entity = {
+	name = "power_armour_6_entity"
+	clone = "power_armour_5_entity"
+	pdxmesh = "vault_tech_powerarmor_mesh"
+}

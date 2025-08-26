@@ -1,0 +1,162 @@
+objectTypes = {
+	pdxmesh = {
+		name = "laser_rifle_mesh"
+		file = "gfx/models/owbentity/weapons/common_laser/laser_rifle.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			name = "jorodoxShape"
+			index = 0
+			texture_diffuse = "laser_rifle_diffuse.dds"
+			texture_normal = "laser_rifle_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+	}
+	pdxmesh = {
+		name = "laser_rifle_2_mesh"
+		file = "gfx/models/owbentity/weapons/advanced_energy/advanced_energy.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			texture_diffuse = "advanced_energy_d.dds"
+			texture_normal = "advanced_energy_n.dds"
+			texture_specular = "advanced_energy_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "pulse_laser_mesh"
+		file = "gfx/models/owbentity/weapons/pulse_energy/pulse.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			texture_diffuse = "pulse_d.dds"
+			texture_normal = "pulse_n.dds"
+			texture_specular = "pulse_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "bozar_mesh"
+		file = "gfx/models/owbentity/weapons/bozar/bozar.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			texture_diffuse = "bozar_d.dds"
+			texture_normal = "bozar_n.dds"
+			texture_specular = "bozar_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "laser_musket"
+		file = "gfx/models/owbentity/weapons/laser_musket/laser_musket.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			texture_diffuse = "laser_musket_d.dds"
+			texture_normal = "laser_musket_n.dds"
+			texture_specular = "laser_musket_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "minigun_pa_mesh"
+		file = "gfx/models/owbentity/weapons/minigun/minigun.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "jorodoxShape"
+			texture_diffuse = "minigun_diffuse.dds"
+			texture_normal = "minigun_normal.dds"
+			texture_specular = "minigun_specular.dds"
+			shader="PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = {
+		name = "laser_beam_mesh"
+		file = "gfx/models/owbentity/empty.mesh"
+		#scale = 0.4
+		meshsettings = {
+			name = "jorodoxShape"
+			index = 0
+			texture_diffuse = "fo4_t51_diffuse.dds"
+			texture_normal = "fo4_t51_normal.dds"
+			texture_specular = "fo4_t51_spec.dds"
+		}
+	}
+	pdxmesh = {
+		name = "advanced_balistic_mesh"
+		file = "gfx/models/owbentity/weapons/advanced_ballistics/service_rifle_mesh.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			texture_diffuse = "service_rifle_d.dds"
+			texture_normal = "service_rifle_n.dds"
+			texture_specular = "service_rifle_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "pipe_rifle_mesh"
+		file = "gfx/models/owbentity/weapons/pipe_rifle/piperifle.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			texture_diffuse = "piperifle_d.dds"
+			texture_normal = "piperifle_n.dds"
+			texture_specular = "piperifle_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "bolt_rifle_mesh"
+		file = "gfx/models/owbentity/weapons/bolt_rifle/bolt_rifle.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			texture_diffuse = "bolt_rifle_d.dds"
+			texture_normal = "bolt_rifle_n.dds"
+			texture_specular = "bolt_rifle_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "tire_iron_mesh"
+		file = "gfx/models/owbentity/weapons/tire_iron/tire_iron.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			texture_diffuse = "tire_iron_d.dds"
+			texture_normal = "tire_iron_n.dds"
+			texture_specular = "tire_iron_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "machete_mesh"
+		file = "gfx/models/owbentity/weapons/machete/machete.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			texture_diffuse = "machete_d.dds"
+			texture_normal = "machete_n.dds"
+			texture_specular = "machete_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "two_hand_sword_mesh"
+		file = "gfx/models/owbentity/weapons/two_hand_sword/two_hand_sword.mesh"
+		scale = 0.75
+
+		meshsettings = {
+			texture_diffuse = "two_hand_sword_d.dds"
+			texture_normal = "two_hand_sword_n.dds"
+			texture_specular = "two_hand_sword_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "super_sledge_mesh"
+		file = "gfx/models/owbentity/weapons/super_sledge/super_sledge_mesh.mesh"
+		scale = 1.0
+		animation = { id = "idle"			type = "sledge_idle_anim" }
+		animation = { id = "idle_attack"    type = "sledge_idle_attack_anim" }
+		animation = { id = "charge_attack"	type = "sledge_charge_attack_anim" }
+		meshsettings = {
+			texture_diffuse = "sledge_d.dds"
+			texture_normal = "sledge_n.dds"
+			texture_specular = "sledge_s.dds"
+		}
+	}
+}

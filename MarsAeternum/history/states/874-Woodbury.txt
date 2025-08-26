@@ -1,0 +1,17 @@
+state={
+	id=874
+	name="STATE_874"
+	
+	history={
+		victory_points = {
+			8535 5
+		}
+		owner = FSM
+		add_core_of = FSM
+	}
+	provinces={
+		6604 8535 11549
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

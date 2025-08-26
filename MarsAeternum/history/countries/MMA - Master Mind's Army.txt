@@ -3,14 +3,14 @@
 oob = "ITA_1936"
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 22
-	fascism = 76
+	fascism = 22
+	neutrality = 76
 	communism = 2
 }
 
@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "portrait_The_Master_Mind.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = syndicalism
 	traits = {
 		
 	}
@@ -52,9 +52,19 @@ create_country_leader = {
 	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
 	picture = "portrait_The_Master_Mind.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = digitalism
 	traits = {
-
+		inventive_genius
+		emergency_powers
+		technocrat
+		prince_of_terror
+		backroom_backstabber
+		strict_austerity_adherent
+		headstrong
+		rearmer
+		political_manipulator
+		industrial_monopoly
+		linchpin_of_infrastructure
 	}
 }
 
@@ -63,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "portrait_The_Master_Mind.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = stratocratic_communism
 	traits = {
 		
 	}

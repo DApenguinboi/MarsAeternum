@@ -1,0 +1,97 @@
+objectTypes = {
+	pdxmesh = {
+		name = "mexico_house_1_mesh"
+		file = "gfx/models/owbentity/map_objects/city_meshes/mexico_house_1.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "mexico_house_1_d.dds"
+			texture_normal = "mexico_house_1_n.dds"
+			texture_specular = "mexico_house_1_s.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "mexico_house_2_mesh"
+		file = "gfx/models/owbentity/map_objects/city_meshes/mexico_house_2.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "mexico_house_2_d.dds"
+			texture_normal = "mexico_house_2_n.dds"
+			texture_specular = "mexico_house_2_s.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "mexico_house_3_mesh"
+		file = "gfx/models/owbentity/map_objects/city_meshes/mexico_house_3.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "mexico_house_3_d.dds"
+			texture_normal = "mexico_house_3_n.dds"
+			texture_specular = "mexico_house_3_s.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "western_city_1_mesh"
+		file = "gfx/models/owbentity/map_objects/city_meshes/city_1_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "city_1_d.dds"
+			texture_normal = "city_1_n.dds"
+			texture_specular = "city_1_s.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "western_city_2_mesh"
+		file = "gfx/models/owbentity/map_objects/city_meshes/city_2_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "city_2_d.dds"
+			texture_normal = "city_2_n.dds"
+			texture_specular = "city_2_s.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "western_city_3_mesh"
+		file = "gfx/models/owbentity/map_objects/city_meshes/city_3_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "city_3_d.dds"
+			texture_normal = "city_3_n.dds"
+			texture_specular = "city_3_s.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "western_city_4_mesh"
+		file = "gfx/models/owbentity/map_objects/city_meshes/city_4_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "city_4_d.dds"
+			texture_normal = "city_4_n.dds"
+			texture_specular = "city_4_s.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "western_city_5_mesh"
+		file = "gfx/models/owbentity/map_objects/city_meshes/city_5_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "city_5_d.dds"
+			texture_normal = "city_5_n.dds"
+			texture_specular = "city_5_s.dds"
+		}
+		scale = 1.0
+	}
+}

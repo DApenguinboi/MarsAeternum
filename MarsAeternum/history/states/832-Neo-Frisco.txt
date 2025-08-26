@@ -1,0 +1,17 @@
+state={
+	id=832
+	name="STATE_832"
+	
+	history={
+		owner = PGM
+		controller = PGM
+		victory_points = {
+			9671 10
+		}
+	}
+	provinces={
+		1750 7164 9075 9671 11688
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

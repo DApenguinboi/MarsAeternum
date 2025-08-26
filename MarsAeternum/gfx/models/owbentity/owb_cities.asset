@@ -1,0 +1,41 @@
+####MEXICAN CITIES
+entity = {
+	name = "mexicangfx_house_1_entity"
+	pdxmesh = "mexico_house_1_mesh"
+	scale = 0.17
+}
+entity = {
+	name = "mexicangfx_house_2_entity"
+	pdxmesh = "mexico_house_2_mesh"
+	scale = 0.17
+}
+entity = {
+	name = "mexicangfx_house_3_entity"
+	pdxmesh = "mexico_house_3_mesh"
+	scale = 0.17
+}
+entity = {
+	name = "western_citiy_1_entity"
+	pdxmesh = "western_city_1_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "western_citiy_2_entity"
+	pdxmesh = "western_city_2_mesh"
+	scale = 1.2
+}
+entity = {
+	name = "western_citiy_3_entity"
+	pdxmesh = "western_city_3_mesh"
+	scale = 1.2
+}
+entity = {
+	name = "western_citiy_4_entity"
+	pdxmesh = "western_city_4_mesh"
+	scale = 1.2
+}
+entity = {
+	name = "western_citiy_5_entity"
+	pdxmesh = "western_city_5_mesh"
+	scale = 1.2
+}

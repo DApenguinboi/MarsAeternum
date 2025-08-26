@@ -1,0 +1,389 @@
+####Moleman####
+
+animation = {
+	name = "moleman_melee_idle_anim"
+	file = "moleman/moleman_melee_idle.anim"
+}
+animation = {
+	name = "moleman_melee_move_anim"
+	file = "moleman/moleman_melee_run.anim"
+}
+animation = {
+	name = "moleman_melee_charge_anim"
+	file = "moleman/moleman_melee_runattack.anim"
+}
+animation = {
+	name = "moleman_melee_attack_anim"
+	file = "moleman/moleman_melee_attack.anim"
+}
+
+animation = {
+	name = "moleman_ranged_idle_anim"
+	file = "moleman/moleman_ranged_idle.anim"
+}
+animation = {
+	name = "moleman_ranged_move_anim"
+	file = "moleman/moleman_ranged_run.anim"
+}
+animation = {
+	name = "moleman_ranged_charge_anim"
+	file = "moleman/moleman_ranged_runattack.anim"
+}
+animation = {
+	name = "moleman_ranged_attack_anim"
+	file = "moleman/moleman_ranged_attack.anim"
+}
+
+animation = {
+	name = "behemoth_idle_anim"
+	file = "behemoth/behemoth_idle.anim"
+}
+animation = {
+	name = "behemoth_move_anim"
+	file = "behemoth/behemoth_run.anim"
+}
+animation = {
+	name = "behemoth_attack_anim"
+	file = "behemoth/behemoth_attack.anim"
+}
+
+animation = {
+	name = "behemothlight_idle_anim"
+	file = "behemoth/behemothlight_idle.anim"
+}
+animation = {
+	name = "behemothlight_move_anim"
+	file = "behemoth/behemothlight_run.anim"
+}
+animation = {
+	name = "behemothlight_attack_anim"
+	file = "behemoth/behemothlight_attack.anim"
+}
+
+animation = {
+	name = "deathclaw_idle_anim"
+	file = "deathclaw/deathclaw_idle.anim"
+}
+animation = {
+	name = "deathclaw_move_anim"
+	file = "deathclaw/deathclaw_run.anim"
+}
+animation = {
+	name = "deathclaw_attack_anim"
+	file = "deathclaw/deathclaw_attack.anim"
+}
+
+animation = {
+	name = "ghoul_idle_anim"
+	file = "ghoul/ghoul_idle.anim"
+}
+animation = {
+	name = "ghoul_idle2_anim"
+	file = "ghoul/ghoul_idle2.anim"
+}
+animation = {
+	name = "ghoul_move_anim"
+	file = "ghoul/ghoul_run.anim"
+}
+animation = {
+	name = "ghoul_charge_anim"
+	file = "ghoul/ghoul_attackrun.anim"
+}
+animation = {
+	name = "ghoul_attack_anim"
+	file = "ghoul/ghoul_attack.anim"
+}
+animation = {
+	name = "ghoul_retreat_anim"
+	file = "ghoul/ghoul_retreat.anim"
+}
+animation = {
+	name = "ghoul_training_anim"
+	file = "ghoul/ghoul_train.anim"
+}
+
+animation = {
+	name = "knight_melee_idle_anim"
+	file = "knight/knight_melee_idle.anim"
+}
+animation = {
+	name = "knight_melee_idle2_anim"
+	file = "knight/knight_melee_idle2.anim"
+}
+animation = {
+	name = "knight_melee_move_anim"
+	file = "knight/knight_melee_run.anim"
+}
+animation = {
+	name = "knight_melee_charge_anim"
+	file = "knight/knight_melee_attack.anim"
+}
+animation = {
+	name = "knight_melee_attack_anim"
+	file = "knight/knight_melee_attack.anim"
+}
+
+animation = {
+	name = "knight_ranged_idle_anim"
+	file = "knight/knight_ranged_idle.anim"
+}
+animation = {
+	name = "knight_ranged_move_anim"
+	file = "knight/knight_ranged_run.anim"
+}
+animation = {
+	name = "knight_ranged_charge_anim"
+	file = "knight/knight_ranged_attack.anim"
+}
+animation = {
+	name = "knight_ranged_attack_anim"
+	file = "knight/knight_ranged_attack.anim"
+}
+animation = {
+	name = "knight_ranged_longattack_anim"
+	file = "knight/knight_ranged_attacklong.anim"
+}
+
+animation = {
+	name = "liberator_idle_anim"
+	file = "liberator/liberator_idle.anim"
+}
+animation = {
+	name = "liberator_move_anim"
+	file = "liberator/liberator_move.anim"
+}
+animation = {
+	name = "liberator_attack_anim"
+	file = "liberator/liberator_attack.anim"
+}
+animation = {
+	name = "liberator_retreat_anim"
+	file = "liberator/liberator_retreat.anim"
+}
+animation = {
+	name = "liberator_training_anim"
+	file = "liberator/liberator_training.anim"
+}
+animation = {
+    name = "wanamingo_idle"
+    file = "wanamingo/wanamingo_idle.anim"
+}
+animation = {
+    name = "wanamingo_walk"
+    file = "wanamingo/wanamingo_walk.anim"
+}
+animation = {
+	name = "mirelurk_idle_anim"
+	file = "mirelurk/mirelurk_idle.anim"
+}
+animation = {
+	name = "mirelurk_idle2_anim"
+	file = "mirelurk/mirelurk_idle2.anim"
+}
+animation = {
+	name = "mirelurk_move_anim"
+	file = "mirelurk/mirelurk_run.anim"
+}
+animation = {
+	name = "mirelurk_charge_anim"
+	file = "mirelurk/mirelurk_attackrun.anim"
+}
+animation = {
+	name = "mirelurk_attack_anim"
+	file = "mirelurk/mirelurk_attack.anim"
+}
+animation = {
+	name = "mirelurk_attack2_anim"
+	file = "mirelurk/mirelurk_attack2.anim"
+}
+animation = {
+	name = "mirelurk_retreat_anim"
+	file = "mirelurk/mirelurk_retreat.anim"
+}
+animation = {
+	name = "mirelurk_training_anim"
+	file = "mirelurk/mirelurk_idle3.anim"
+}
+
+animation = {
+	name = "sentrybot_idle_anim"
+	file = "sentrybot/sentrybot_idle.anim"
+}
+animation = {
+	name = "sentrybot_move_anim"
+	file = "sentrybot/sentrybot_run.anim"
+}
+animation = {
+	name = "sentrybot_charge_anim"
+	file = "sentrybot/sentrybot_runattack.anim"
+}
+animation = {
+	name = "sentrybot_attack_anim"
+	file = "sentrybot/sentrybot_attack.anim"
+}
+animation = {
+	name = "sentrybot_retreat_anim"
+	file = "sentrybot/sentrybot_run.anim"
+}
+
+animation = {
+	name = "sentrybotmk2_idle_anim"
+	file = "sentrybotmk2/sentrybotmk2_idle.anim"
+}
+animation = {
+	name = "sentrybotmk2_move_anim"
+	file = "sentrybotmk2/sentrybotmk2_run.anim"
+}
+animation = {
+	name = "sentrybotmk2_attackmove_anim"
+	file = "sentrybotmk2/sentrybotmk2_runattack.anim"
+}
+animation = {
+	name = "sentrybotmk2_attack_anim"
+	file = "sentrybotmk2/sentrybotmk2_attack.anim"
+}
+
+animation = {
+	name = "slanter_melee_idle_anim"
+	file = "slanter/slanter_melee_idle.anim"
+}
+animation = {
+	name = "slanter_melee_move_anim"
+	file = "slanter/slanter_melee_run.anim"
+}
+animation = {
+	name = "slanter_melee_charge_anim"
+	file = "slanter/slanter_melee_runattack.anim"
+}
+animation = {
+	name = "slanter_melee_attack_anim"
+	file = "slanter/slanter_melee_attack.anim"
+}
+
+animation = {
+	name = "slanter_ranged_idle_anim"
+	file = "slanter/slanter_ranged_idle.anim"
+}
+animation = {
+	name = "slanter_ranged_move_anim"
+	file = "slanter/slanter_ranged_run.anim"
+}
+animation = {
+	name = "slanter_ranged_charge_anim"
+	file = "slanter/slanter_ranged_runattack.anim"
+}
+animation = {
+	name = "slanter_ranged_attack_anim"
+	file = "slanter/slanter_ranged_attack.anim"
+}
+
+animation = {
+	name = "supermutantbehemoth_idle_anim"
+	file = "supermutantbehemoth/supermutantbehemoth_idle.anim"
+}
+animation = {
+	name = "supermutantbehemoth_move_anim"
+	file = "supermutantbehemoth/supermutantbehemoth_run.anim"
+}
+animation = {
+	name = "supermutantbehemoth_charge_anim"
+	file = "supermutantbehemoth/supermutantbehemoth_attackrun.anim"
+}
+animation = {
+	name = "supermutantbehemoth_attack_anim"
+	file = "supermutantbehemoth/supermutantbehemoth_attack.anim"
+}
+animation = {
+	name = "supermutantbehemoth_attack2_anim"
+	file = "supermutantbehemoth/supermutantbehemoth_attack2.anim"
+}
+animation = {
+	name = "supermutantbehemoth_attack3_anim"
+	file = "supermutantbehemoth/supermutantbehemoth_attack3.anim"
+}
+animation = {
+	name = "supermutantbehemoth_throw_anim"
+	file = "supermutantbehemoth/supermutantbehemoth_rangedattack.anim"
+}
+animation = {
+	name = "supermutantbehemoth_retreat_anim"
+	file = "supermutantbehemoth/supermutantbehemoth_retreat.anim"
+}
+animation = {
+	name = "supermutantbehemoth_training_anim"
+	file = "supermutantbehemoth/supermutantbehemoth_idle.anim"
+}
+animation = {
+	name = "nucleartank_idle_anim"
+	file = "vehicles/nucleartank/nucleartank_idle.anim"
+}
+animation = {
+	name = "nucleartank_move_anim"
+	file = "vehicles/nucleartank/nucleartank_run.anim"
+}
+animation = {
+	name = "nucleartank_attack_anim"
+	file = "vehicles/nucleartank/nucleartank_attack.anim"
+}
+animation = {
+	name = "assaultron_idle_anim"
+	file = "assaultron/assaultron_idle.anim"
+}
+animation = {
+	name = "assaultron_move_anim"
+	file = "assaultron/assaultron_run.anim"
+}
+animation = {
+	name = "assaultron_attack_anim"
+	file = "assaultron/assaultron_attack.anim"
+}
+animation = {
+	name = "scrapbot_idle_anim"
+	file = "scrapbot/scrapbot_idle.anim"
+}
+animation = {
+	name = "scrapbot_move_anim"
+	file = "scrapbot/scrapbot_run.anim"
+}
+animation = {
+	name = "scrapbot_attack_anim"
+	file = "scrapbot/scrapbot_attack.anim"
+}
+
+animation = {
+	name = "radroach_idle_anim"
+	file = "radroach/radroach_idle.anim"
+}
+animation = {
+	name = "radroach_move_anim"
+	file = "radroach/radroach_run.anim"
+}
+animation = {
+	name = "radroach_attack_anim"
+	file = "radroach/radroach_run.anim"
+}
+
+animation = {
+	name = "molerat_idle_anim"
+	file = "molerat/molerat_idle.anim"
+}
+animation = {
+	name = "molerat_move_anim"
+	file =  "molerat/molerat_idle.anim"
+}
+animation = {
+	name = "molerat_charge_anim"
+	file = "molerat/molerat_attack.anim"
+}
+animation = {
+	name = "molerat_attack_anim"
+	file = "molerat/molerat_attack.anim"
+}
+animation = {
+	name = "molerat_retreat_anim"
+	file =  "molerat/molerat_idle.anim"
+}
+animation = {
+	name = "molerat_training_anim"
+	file = "molerat/molerat_hit.anim"
+}

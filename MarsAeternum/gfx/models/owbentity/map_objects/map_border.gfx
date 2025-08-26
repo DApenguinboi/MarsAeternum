@@ -1,0 +1,75 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "owb_map_border_top"
+		file = "gfx/models/owbentity/map_objects/border/top_mesh.mesh"
+		meshsettings = {
+			name = "Cube.021"
+			index = 0
+			shader="PdxMeshAdvancedLogo"
+			texture_diffuse = "top_diffuse.dds"
+			texture_normal = "top_normal.dds"
+			texture_specular = "top_spec.dds"
+		}
+		meshsettings = {
+			name = "Cube.021"
+			index = 1
+			shader="PdxMeshAdvancedLogo"
+			texture_diffuse = "psycho_d.dds"
+			texture_normal = "psycho_n.dds"
+			texture_specular = "psycho_s.dds"
+		}
+		meshsettings = {
+			name = "Cube.021"
+			index = 2
+			shader="PdxMeshAdvancedLogo"
+			texture_diffuse = "nuka_bottle_d.dds"
+			texture_normal = "nuka_bottle_n.dds"
+			texture_specular = "nuka_bottle_s.dds"
+		}
+		scale = 1.0
+		cull_distance = 99999.0
+	}
+	pdxmesh = {
+		name = "owb_map_border_bottom"
+		file = "gfx/models/owbentity/map_objects/border/low_mesh.mesh"
+		meshsettings = {
+			name = "Cube.002"
+			index = 0
+			shader="PdxMeshAdvancedLogo"
+			texture_diffuse = "bottom_diffuse.dds"
+			texture_normal = "bottom_normal.dds"
+			texture_specular = "bottom_spec.dds"
+		}
+		meshsettings = {
+			name = "Cube.002"
+			index = 1
+			shader="PdxMeshAdvancedLogo"
+			texture_diffuse = "psycho_d.dds"
+			texture_normal = "psycho_n.dds"
+			texture_specular = "psycho_s.dds"
+		}
+		meshsettings = {
+			name = "Cube.002"
+			index = 2
+			shader="PdxMeshAdvancedLogo"
+			texture_diffuse = "nuka_bottle_d.dds"
+			texture_normal = "nuka_bottle_n.dds"
+			texture_specular = "nuka_bottle_s.dds"
+		}
+		scale = 1.0
+		cull_distance = 99999.0
+	}
+	pdxmesh = {
+		name = "owb_map_logo"
+		file = "gfx/models/owbentity/map_objects/border/logo.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedLogo"
+			texture_diffuse = "logo_d.dds"
+			texture_normal = "logo_n.dds"
+			texture_specular = "logo_s.dds"
+		}
+		scale = 1.0
+		cull_distance = 99999.0
+	}
+}

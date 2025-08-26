@@ -1,0 +1,21 @@
+state={
+	id=869
+	name="STATE_869"
+	
+	state_category = town
+
+	history={
+		owner = CBA
+		victory_points = {
+			6696 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		75 134 136 6520 6696 7007 7725 7812 7919
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

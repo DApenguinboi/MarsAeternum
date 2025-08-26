@@ -31,6 +31,21 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Marcus Marsh"
+	desc = ""
+	picture = "portrait_marcus_marsh.dds"
+	expire = "1965.1.1"
+	ideology = martian_imperative_thought
+	traits = {
+		inexperienced_monarch
+		inexperienced_imperialist
+		empire_builder
+		warrior_code
+		nationalist_symbol
+	}
+}
+
 #create_country_leader = {
 #	name = "Dennis Fredauer"
 #	desc = ""

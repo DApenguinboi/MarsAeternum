@@ -21,7 +21,7 @@ bookmarks = {
 		
 		"GCC"={
 			history = "GCC_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = corporatism
 			ideas = {
 				
 				
@@ -55,7 +55,7 @@ bookmarks = {
 		}
 		"FMR"={
 			history = "FMR_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = socialism
 			ideas = {
 				
 				
@@ -95,7 +95,7 @@ bookmarks = {
 		"EHC"={
 			minor = yes
 			history = "EHC_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = corporatism
 			ideas = {
 				
 				
@@ -108,7 +108,7 @@ bookmarks = {
 		"IEF"={
 			minor = yes
 			history = "IEF_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = corporatism
 			ideas = {
 				
 				
@@ -121,7 +121,7 @@ bookmarks = {
 		"MMA"={
 			minor = yes
 			history = "MMA_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				
 				
@@ -160,7 +160,7 @@ bookmarks = {
 		"EMJ"={
 			minor = yes
 			history = "EMJ_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = neutrality
 			ideas = {
 				
 				
@@ -173,7 +173,7 @@ bookmarks = {
 		"MAF"={
 			minor = yes
 			history = "MAF_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = neutrality
 			ideas = {
 				
 				
@@ -186,7 +186,7 @@ bookmarks = {
 		"CST"={
 			minor = yes
 			history = "CST_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = corporatism
 			ideas = {
 				
 				
@@ -199,7 +199,7 @@ bookmarks = {
 		"YAK"={
 			minor = yes
 			history = "YAK_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = corporatism
 			ideas = {
 				
 				
@@ -226,6 +226,32 @@ bookmarks = {
 			minor = yes
 			history = "ELY_GATHERING_STORM_DESC"
 			ideology = democratic
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"MBA"={
+			minor = yes
+			history = "MBA_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"MSA"={
+			minor = yes
+			history = "MSA_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 				
 				

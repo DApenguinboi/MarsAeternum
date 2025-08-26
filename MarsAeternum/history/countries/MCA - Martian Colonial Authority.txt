@@ -42,7 +42,7 @@ create_country_leader = {
 	desc = "POLITICS_EDVARD_BENES_DESC"
 	picture = "portrait_louis_bentinck.dds"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = tot_despotism
 	traits = {
 		prince_of_terror
 		hardened_officer
@@ -61,13 +61,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jaroslav Krejčí"
+	name = "Louis Bentinck"
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
-	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
+	picture = "portrait_louis_bentinck.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = martian_fascism
 	traits = {
-		#
+		prince_of_terror
+		hardened_officer
 	}
 }
 

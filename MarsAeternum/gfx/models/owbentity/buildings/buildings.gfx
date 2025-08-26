@@ -1,0 +1,101 @@
+objectTypes = {
+	pdxmesh = {
+		name = "owb_bunker_building"
+		file = "gfx/models/owbentity/buildings/bunker/bunker_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "bunker_d.dds"
+			texture_normal = "bunker_n.dds"
+			texture_specular = "bunker_s.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "owb_bunker_destroyed_building"
+		file = "gfx/models/owbentity/buildings/bunker/bunker_destroyed_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "bunker_destroyed_d.dds"
+			texture_normal = "bunker_destroyed_n.dds"
+			texture_specular = "bunker_destroyed_s.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "owb_shipyard_building"
+		file = "gfx/models/owbentity/buildings/shipyard/shipyard_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "shipyard_d.dds"
+			texture_normal = "shipyard_n.dds"
+			texture_specular = "shipyard_s.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "owb_harbor_building"
+		file = "gfx/models/owbentity/buildings/harbor/harbor_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "harbor_d.dds"
+			texture_normal = "harbor_n.dds"
+			texture_specular = "harbor_s.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "owb_outpost_building"
+		file = "gfx/models/owbentity/buildings/outpost/outpost_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "outpost_d.dds"
+			texture_normal = "outpost_n.dds"
+			texture_specular = "outpost_s.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "owb_outpost_destroyed_building"
+		file = "gfx/models/owbentity/buildings/outpost/outpost_destroyed_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "outpost_destroyed_d.dds"
+			texture_normal = "outpost_destroyed_n.dds"
+			texture_specular = "outpost_destroyed_s.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "owb_hangar_building"
+		file = "gfx/models/owbentity/buildings/hangar/hangar_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "hangar_d.dds"
+			texture_normal = "hangar_n.dds"
+			texture_specular = "hangar_s.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "owb_factory_building"
+		file = "gfx/models/owbentity/buildings/factory/factory_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "owb_factory_d.dds"
+			texture_normal = "owb_factory_n.dds"
+			texture_specular = "owb_factory_s.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "owb_civi_building"
+		file = "gfx/models/owbentity/buildings/factory/factory_mesh.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "factory_mex_d.dds"
+			texture_normal = "owb_factory_n.dds"
+			texture_specular = "owb_factory_s.dds"
+		}
+		scale = 1.0
+	}
+}

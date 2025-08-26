@@ -1,0 +1,135 @@
+objectTypes = {
+	pdxmesh = {
+		name = "protectron_mesh"
+		file = "gfx/models/owbentity/robots/protectron.mesh"
+		#scale = 0.45
+
+
+		animation = { id = "idle"			type = "protectron_idle_anim" }
+		animation = { id = "idle2"			type = "protectron_idle_2_anim" }
+		animation = { id = "attack"			type = "protectron_attack_anim" }
+		animation = { id = "move"			type = "protectron_walk_anim" }
+		animation = { id = "retreat"		type = "protectron_retreat_anim" }
+
+		meshsettings = {
+			name = "jorodoxShape"
+			index = 0
+			texture_diffuse = "protectron_diffuse.dds"
+			texture_normal = "protectron_normal.dds"
+			texture_specular = "protectron_specular.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+	###HANDY
+	pdxmesh = {
+		name = "mr_handy_mesh"
+		file = "gfx/models/owbentity/robots/mr_handy.mesh"
+		#scale = 0.45
+
+
+		animation = { id = "idle"			type = "handy_idle_anim" }
+		animation = { id = "move"			type = "handy_move_anim" }
+		animation = { id = "charge"			type = "handy_charge_anim" }
+		animation = { id = "charge_flamer"			type = "handy_charge_flamer_anim" }
+		animation = { id = "charge_saw"			type = "handy_charge_saw_anim" }
+		animation = { id = "charge_pincher"			type = "handy_charge_pincher_anim" }
+		animation = { id = "support_idle"			type = "handle_support_idle_anim" }
+		animation = { id = "support_saw"			type = "handle_support_saw_anim" }
+		animation = { id = "support_flamer"			type = "handle_support_flamer_anim" }
+
+		meshsettings = {
+			texture_diffuse = "mr_handy_d.dds"
+			texture_normal = "mr_handy_n.dds"
+			texture_specular = "mr_handy_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "mr_handy_mex_mesh"
+		file = "gfx/models/owbentity/robots/mr_handy_mex.mesh"
+		#scale = 0.45
+
+
+		animation = { id = "idle"			type = "handy_idle_anim" }
+		animation = { id = "move"			type = "handy_move_anim" }
+		animation = { id = "charge"			type = "handy_charge_anim" }
+		animation = { id = "charge_flamer"			type = "handy_charge_flamer_anim" }
+		animation = { id = "charge_saw"			type = "handy_charge_saw_anim" }
+		animation = { id = "charge_pincher"			type = "handy_charge_pincher_anim" }
+		animation = { id = "support_idle"			type = "handle_support_idle_anim" }
+		animation = { id = "support_saw"			type = "handle_support_saw_anim" }
+		animation = { id = "support_flamer"			type = "handle_support_flamer_anim" }
+
+		meshsettings = {
+			name = "ID8.001"
+			index = 0
+			texture_diffuse = "mr_handy_d.dds"
+			texture_normal = "mr_handy_n.dds"
+			texture_specular = "mr_handy_s.dds"
+			shader = PdxMeshAdvanced
+		}
+		meshsettings = {
+			name = "ID8.000"
+			###This is bugged
+			index = 1
+			texture_diffuse = "hat_d.dds"
+			texture_normal = "hat_n.dds"
+			texture_specular = "hat_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+	####SECURITRON
+	pdxmesh = {
+		name = "securitron_mesh"
+		file = "gfx/models/owbentity/robots/securitron.mesh"
+		#scale = 1.7
+
+
+		animation = { id = "idle"			type = "securitron_idle_anim" }
+		animation = { id = "idle2"			type = "securitron_idle_2_anim" }
+		animation = { id = "idle3"			type = "securitron_idle_3_anim" }
+		animation = { id = "idle4"			type = "securitron_idle_4_anim" }
+		animation = { id = "attack"			type = "securitron_attack_anim" }
+		animation = { id = "move"			type = "securitron_move_anim" }
+		animation = { id = "defend"		type = "securitron_defend_anim" }
+		animation = { id = "support"		type = "securitron_support_anim" }
+
+		meshsettings = {
+			name = "jorodoxShape"
+			index = 0
+			texture_diffuse = "securitron_diffuse.dds"
+			texture_normal = "securitron_normal.dds"
+			texture_specular = "securitron_specular.dds"
+			#texture_normal = "securitron_normal.dds"
+			#texture_specular = "securitron_specular.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+	####MARKETRON
+	pdxmesh = {
+		name = "marketron_mesh"
+		file = "gfx/models/owbentity/robots/securitron.mesh"
+		#scale = 1.7
+
+
+		animation = { id = "idle"			type = "securitron_idle_anim" }
+		animation = { id = "idle2"			type = "securitron_idle_2_anim" }
+		animation = { id = "idle3"			type = "securitron_idle_3_anim" }
+		animation = { id = "idle4"			type = "securitron_idle_4_anim" }
+		animation = { id = "attack"			type = "securitron_attack_anim" }
+		animation = { id = "move"			type = "securitron_move_anim" }
+		animation = { id = "defend"		type = "securitron_defend_anim" }
+		animation = { id = "support"		type = "securitron_support_anim" }
+
+		meshsettings = {
+			name = "jorodoxShape"
+			index = 0
+			texture_diffuse = "marketron_diffuse.dds"
+			texture_normal = "securitron_normal.dds"
+			texture_specular = "securitron_specular.dds"
+			#texture_normal = "securitron_normal.dds"
+			#texture_specular = "securitron_specular.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

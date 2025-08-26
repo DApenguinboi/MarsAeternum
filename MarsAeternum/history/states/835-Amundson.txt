@@ -1,0 +1,19 @@
+state={
+	id=835
+	name="STATE_835"
+			
+	state_category = large_city
+	
+	history={
+		owner = SRB
+		controller = SRB
+		victory_points = {
+			7275 10
+		}
+	}
+	provinces={
+		1682 1828 4474 7275 8445
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

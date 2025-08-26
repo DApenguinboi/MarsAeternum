@@ -8,22 +8,28 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 5
+	socialism = 5
 	fascism = 5
 	communism = 85
 	neutrality = 5
+}
+
+add_ideas = {
+	closed_economy
+	extensive_conscription
+	partial_economic_mobilisation
 }
 
 create_country_leader = {
 	name = "Stavanger Morton"
 	desc = "POLITICS_STAVANGER_MORTON_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
-	ideology = stalinism
+	ideology = mortonism
 	traits = {
+		ambitious_union_boss
 		staunch_stalinist 
 		veteran_communist 
 		retired_officer 
-		great_war_hero 
 		revolutionary_general 
 		militant_socialist 
 	}
@@ -37,7 +43,7 @@ create_country_leader = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 25
+		socialism = 25
 		fascism = 5
 		communism = 65
 		neutrality = 5
@@ -48,10 +54,11 @@ create_country_leader = {
 	desc = "POLITICS_ROBERTO_ESCUELA_DESC"
 	picture = "Portrait_South_America_Generic_1.dds"
 	expire = "2965.1.1"
-	ideology = socialism
+	ideology = syndicalism
 	traits = { 
 		leader_of_the_agrarian_union
 		protector_of_the_campesinos
+		hero_of_the_peasantry
 		retired_officer
 		militant_socialist
 		stout_defender
@@ -62,7 +69,7 @@ create_country_leader = {
 	desc = "Anton Kearney is a Strasserist and a Revisionist"
 	picture = "portrait_GER_otto_strasser.dds"
 	expire = "2965.1.1"
-	ideology = gen_nazism
+	ideology = strasserism
 	traits = { 
 		dictator
 		statism_adept
@@ -72,9 +79,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Stavanger Morton"
 	desc = "POLITICS_STAVANGER_MORTON_DESC"
-	picture = "Portrait_USA_Generic_1.dds"
+	picture = "Portrait_Stavanger_Morton.dds"
 	expire = "2965.1.1"
-	ideology = stalinism
+	ideology = mortonism
 	traits = { 
 		ambitious_union_boss
 		staunch_stalinist 
@@ -82,6 +89,7 @@ create_country_leader = {
 		retired_officer 
 		revolutionary_general 
 		militant_socialist 
+		colonial_communist
 	}
 }
 create_country_leader = {

@@ -1,0 +1,136 @@
+objectTypes = {
+	####paradox mesh
+	pdxmesh = {
+		### name referenced by .asset file
+		name = "powerarmor_t51_mesh"
+		###absolute file path from mod folder
+		file = "gfx/models/owbentity/powerarmor/fo4_t51.mesh"
+		### scale of the mesh
+		#### binding animations to the mesh with an internal reference and an state id(can be anything)
+		animation = { id = "move"			type = "fo4_t51_walk_anim" }
+		animation = { id = "attack"			type = "fo4_t51_running_anim" }
+		animation = { id = "shoot"			type = "fo4_t51_fire_anim" }
+		animation = { id = "retreat"		type = "fo4_t51_retreat_anim" }
+		animation = { id = "idle1"			type = "fo4_t51_idel1_anim" }
+		animation = { id = "idle2"			type = "fo4_t51_idel2_anim" }
+
+		meshsettings = {
+			####mesh object name (can be multiple objects in a mesh)
+			name = "jorodoxShape"
+			####index of the mesh to use
+			index = 0
+			###diffuse (color) map: Reletive to this file
+			###Red - red diffuse
+			###Green - green diffuse
+			###Blue - blue diffuse
+			###Alpha - opacity (PDXMeshAdvanced only) (black and white)
+			###texture_diffuse = "t51_diffuse.dds"
+			###normal (geometry changes) map: Reletive to this file
+			###Red - normal red
+			###Green - normal red
+			###Blue - emissive red (black and white)
+			###Alpha - normal green
+			###texture_normal = "t51_normal.dds"
+			###specular map: stores all material information. Reletive to this file
+			###Red - mask (for country/empire color) (black and white)
+			###Green - specular blue (black and white)
+			###Blue - metalness blue (black and white)
+			###Alpha - gloss blue (black and white)
+			###texture_specular = "t51_specular.dds"
+			### Shader type. found in FX folder. Normally PdxMeshAdvanced or PdxMeshStandard
+			shader="PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = {
+		### name referenced by .asset file
+		name = "powerarmor_t51_nuka_mesh"
+		###absolute file path from mod folder
+		file = "gfx/models/owbentity/powerarmor/fo4_t51.mesh"
+		### scale of the mesh
+		#### binding animations to the mesh with an internal reference and an state id(can be anything)
+		animation = { id = "move"			type = "fo4_t51_walk_anim" }
+		animation = { id = "attack"			type = "fo4_t51_running_anim" }
+		animation = { id = "shoot"			type = "fo4_t51_fire_anim" }
+		animation = { id = "retreat"		type = "fo4_t51_retreat_anim" }
+		animation = { id = "idle1"			type = "fo4_t51_idel1_anim" }
+		animation = { id = "idle2"			type = "fo4_t51_idel2_anim" }
+
+		meshsettings = {
+			texture_diffuse = "fo4_t51_nuka_diffuse.dds"
+			texture_normal = "fo4_t51_normal.dds"
+			texture_specular = "fo4_t51_spec.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		### name referenced by .asset file
+		name = "powerarmor_x01_mesh"
+		###absolute file path from mod folder
+		file = "gfx/models/owbentity/powerarmor/x01_powerarmor.mesh"
+		### scale of the mesh
+		scale = 1.0
+		#### binding animations to the mesh with an internal reference and an state id(can be anything)
+		animation = { id = "march_move"			type = "owb_infantry_rifle_march" }
+		animation = { id = "aim_exercise"			type = "owb_infantry_rifle_aim_exercise" }
+		animation = { id = "attack"			type = "owb_infantry_rifle_attack_stand" }
+		animation = { id = "support_attack"			type = "owb_infantry_rifle_attack_crouch" }
+		animation = { id = "charge_rifle"			type = "owb_infantry_rifle_charge" }
+		animation = { id = "charge_rifle_shoot"			type = "owb_infantry_rifle_charge_shoot" }
+		animation = { id = "guard_rifle"			type = "owb_infantry_rifle_guard" }
+		animation = { id = "idle"			type = "owb_infantry_rifle_idle" }
+		animation = { id = "training"			type = "owb_infantry_rifle_training_idle" }
+		animation = { id = "jumping_jacks"			type = "owb_infantry_rifle_training_jumping" }
+		animation = { id = "pushup"			type = "owb_infantry_rifle_training_pushup" }
+		animation = { id = "long_idle01"			type = "owb_infantry_rifle_long_idle_1" }
+		animation = { id = "long_idle02"			type = "owb_infantry_rifle_long_idle_2" }
+		animation = { id = "long_idle03"			type = "owb_infantry_rifle_long_idle_3" }
+		animation = { id = "long_idle04"			type = "owb_infantry_rifle_long_idle_4" }
+		animation = { id = "long_idle05"			type = "owb_infantry_rifle_long_idle_5" }
+		animation = { id = "retreat"			type = "owb_infantry_rifle_retreat" }
+		animation = { id = "move"			type = "owb_infantry_rifle_move" }
+		animation = { id = "death"			type = "owb_infantry_rifle_death" }
+
+		meshsettings = {
+			texture_diffuse = "x01_d.dds"
+			texture_normal = "x01_n.dds"
+			texture_specular = "x01_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		### name referenced by .asset file
+		name = "vault_tech_powerarmor_mesh"
+		###absolute file path from mod folder
+		file = "gfx/models/owbentity/powerarmor/vault_pa_export.mesh"
+		### scale of the mesh
+		scale = 1.1
+		#### binding animations to the mesh with an internal reference and an state id(can be anything)
+		animation = { id = "march_move"			type = "owb_infantry_rifle_march" }
+		animation = { id = "aim_exercise"			type = "owb_infantry_rifle_aim_exercise" }
+		animation = { id = "attack"			type = "owb_infantry_rifle_attack_stand" }
+		animation = { id = "support_attack"			type = "owb_infantry_rifle_attack_crouch" }
+		animation = { id = "charge_rifle"			type = "owb_infantry_rifle_charge" }
+		animation = { id = "charge_rifle_shoot"			type = "owb_infantry_rifle_charge_shoot" }
+		animation = { id = "guard_rifle"			type = "owb_infantry_rifle_guard" }
+		animation = { id = "idle"			type = "owb_infantry_rifle_idle" }
+		animation = { id = "training"			type = "owb_infantry_rifle_training_idle" }
+		animation = { id = "jumping_jacks"			type = "owb_infantry_rifle_training_jumping" }
+		animation = { id = "pushup"			type = "owb_infantry_rifle_training_pushup" }
+		animation = { id = "long_idle01"			type = "owb_infantry_rifle_long_idle_1" }
+		animation = { id = "long_idle02"			type = "owb_infantry_rifle_long_idle_2" }
+		animation = { id = "long_idle03"			type = "owb_infantry_rifle_long_idle_3" }
+		animation = { id = "long_idle04"			type = "owb_infantry_rifle_long_idle_4" }
+		animation = { id = "long_idle05"			type = "owb_infantry_rifle_long_idle_5" }
+		animation = { id = "retreat"			type = "owb_infantry_rifle_retreat" }
+		animation = { id = "move"			type = "owb_infantry_rifle_move" }
+		animation = { id = "death"			type = "owb_infantry_rifle_death" }
+
+		meshsettings = {
+			texture_diffuse = "vault_pa_export_d.dds"
+			texture_normal = "vault_pa_export_n.dds"
+			texture_specular = "vault_pa_export_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+
+}

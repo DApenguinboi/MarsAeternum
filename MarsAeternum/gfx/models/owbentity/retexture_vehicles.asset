@@ -1,0 +1,450 @@
+###TVR
+entity = {
+		name = "TVR_motorized_entity"
+		clone = "owb_motorized_entity"
+		attach = { 	name = "Human"			Human = "TVR_infantry_bike_entity" }
+}
+entity = {
+		name = "TVR_motorized_2_entity"
+		clone = "owb_motorized_2_entity"
+		attach = { 	name = "Human"			Human = "TVR_infantry_bike_2_entity" }
+}
+entity = {
+		name = "TVR_motorized_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_3_entity"
+		attach = { 	name = "infantry"			infantry = "TVR_infantry_5_entity" }
+}
+entity = {
+		name = "TVR_motorized_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_4_entity"
+		attach = { 	name = "infantry"			infantry = "TVR_infantry_5_entity" }
+}
+entity = {
+		name = "TVR_motorized_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_5_entity"
+		attach = { 	name = "infantry"			infantry = "TVR_infantry_5_entity" }
+}
+
+entity = {
+		name = "TVR_apc_entity"
+		clone = "owb_motorized_2_entity" #"owb_apc_entity"
+		attach = { 	name = "infantry"			infantry = "TVR_infantry_5_entity" }
+		attach = { 	name = "vehicle"			vehicle = "TVR_apc_vehicle_1_entity" }
+}
+entity = {
+	name = "TVR_apc_vehicle_1_entity"
+	clone = "owb_motorized_2_entity" #"owb_mechanized_1_entity"
+	attach = { name = "infantry_right" infantry_right = "TVR_mech_1_infantry" }
+	attach = { name = "infantry_left" infantry_left = "TVR_mech_1_infantry" }
+}
+entity = {
+	name = "TVR_mech_1_infantry"
+	clone = "infantry_mech_unit_entity"
+	pdxmesh = "aztlan_warrior_mesh"
+}
+entity = {
+		name = "TVR_apc_2_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_2_entity"
+		attach = { 	name = "infantry"			infantry = "TVR_infantry_5_entity" }
+}
+entity = {
+		name = "TVR_apc_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_3_entity"
+		attach = { 	name = "infantry"			infantry = "TVR_infantry_5_entity" }
+}
+entity = {
+		name = "TVR_apc_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_4_entity"
+		attach = { 	name = "infantry"			infantry = "TVR_infantry_5_entity" }
+}
+entity = {
+		name = "TVR_apc_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_5_entity"
+		attach = { 	name = "infantry"			infantry = "TVR_infantry_5_entity" }
+}
+### TDT
+###TVR
+entity = {
+		name = "TDT_motorized_entity"
+		clone = "owb_motorized_entity"
+		attach = { 	name = "Human"			Human = "TDT_infantry_bike_entity" }
+}
+entity = {
+		name = "TDT_motorized_2_entity"
+		clone = "owb_motorized_2_entity"
+		attach = { 	name = "Human"			Human = "TDT_infantry_bike_2_entity" }
+}
+entity = {
+		name = "TDT_motorized_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_3_entity"
+		attach = { 	name = "infantry"			infantry = "TDT_infantry_5_entity" }
+}
+entity = {
+		name = "TDT_motorized_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_4_entity"
+		attach = { 	name = "infantry"			infantry = "TDT_infantry_5_entity" }
+}
+entity = {
+		name = "TDT_motorized_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_5_entity"
+		attach = { 	name = "infantry"			infantry = "TDT_infantry_5_entity" }
+}
+
+entity = {
+		name = "TDT_apc_entity"
+		clone = "owb_motorized_2_entity" #"owb_apc_entity"
+		attach = { 	name = "infantry"			infantry = "TDT_infantry_5_entity" }
+		attach = { 	name = "vehicle"			vehicle = "TDT_apc_vehicle_1_entity" }
+}
+entity = {
+	name = "TDT_apc_vehicle_1_entity"
+	clone = "owb_motorized_2_entity" #"owb_mechanized_1_entity"
+	attach = { name = "infantry_right" infantry_right = "TDT_mech_1_infantry" }
+	attach = { name = "infantry_left" infantry_left = "TDT_mech_1_infantry" }
+}
+entity = {
+	name = "TDT_mech_1_infantry"
+	clone = "infantry_mech_unit_entity"
+	pdxmesh = "aztlan_warrior_mesh"
+}
+entity = {
+		name = "TDT_apc_2_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_2_entity"
+		attach = { 	name = "infantry"			infantry = "TDT_infantry_5_entity" }
+}
+entity = {
+		name = "TDT_apc_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_3_entity"
+		attach = { 	name = "infantry"			infantry = "TDT_infantry_5_entity" }
+}
+entity = {
+		name = "TDT_apc_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_4_entity"
+		attach = { 	name = "infantry"			infantry = "TDT_infantry_5_entity" }
+}
+entity = {
+		name = "TDT_apc_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_5_entity"
+		attach = { 	name = "infantry"			infantry = "TDT_infantry_5_entity" }
+}
+###AZT
+
+entity = {
+		name = "ATE_motorized_entity"
+		clone = "owb_motorized_entity"
+		attach = { 	name = "Human"			Human = "ATE_infantry_bike_entity" }
+}
+entity = {
+		name = "ATE_motorized_2_entity"
+		clone = "owb_motorized_2_entity"
+		attach = { 	name = "Human"			Human = "ATE_infantry_bike_2_entity" }
+}
+entity = {
+		name = "ATE_motorized_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_3_entity"
+		attach = { 	name = "infantry"			infantry = "ATE_infantry_5_entity" }
+}
+entity = {
+		name = "ATE_motorized_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_4_entity"
+		attach = { 	name = "infantry"			infantry = "ATE_infantry_5_entity" }
+}
+entity = {
+		name = "ATE_motorized_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_5_entity"
+		attach = { 	name = "infantry"			infantry = "ATE_infantry_5_entity" }
+}
+
+entity = {
+		name = "ATE_apc_1_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_1_entity"
+		attach = { 	name = "infantry"			infantry = "ATE_infantry_5_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ATE_apc_vehicle_1_entity" }
+}
+entity = {
+	name = "ATE_apc_vehicle_1_entity"
+	clone = "owb_motorized_2_entity" #"owb_apc_entity"
+	attach = { name = "infantry_right" infantry_right = "ATE_mech_infantry" }
+	attach = { name = "infantry_left" infantry_left = "ATE_mech_infantry" }
+}
+entity = {
+	name = "ATE_mech_infantry"
+	clone = "infantry_mech_unit_entity"
+	pdxmesh = "aztlan_warrior_mesh"
+}
+entity = {
+		name = "ATE_apc_2_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_2_entity"
+		attach = { 	name = "infantry"			infantry = "ATE_infantry_5_entity" }
+}
+entity = {
+		name = "ATE_apc_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_3_entity"
+		attach = { 	name = "infantry"			infantry = "ATE_infantry_5_entity" }
+}
+entity = {
+		name = "ATE_apc_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_4_entity"
+		attach = { 	name = "infantry"			infantry = "ATE_infantry_5_entity" }
+}
+entity = {
+		name = "ATE_apc_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_5_entity"
+		attach = { 	name = "infantry"			infantry = "ATE_infantry_5_entity" }
+}
+###ITZ
+entity = {
+		name = "ITZ_motorized_entity"
+		clone = "owb_motorized_entity"
+		attach = { 	name = "Human"			Human = "ITZ_infantry_bike_entity" }
+}
+entity = {
+		name = "ITZ_motorized_2_entity"
+		clone = "owb_motorized_2_entity"
+		attach = { 	name = "Human"			Human = "ITZ_infantry_bike_2_entity" }
+}
+entity = {
+		name = "ITZ_motorized_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_3_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "ITZ_motorized_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_4_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "ITZ_motorized_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_5_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+
+entity = {
+		name = "ITZ_apc_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_1_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ITZ_apc_vehicle_1_entity" }
+}
+entity = {
+	name = "ITZ_apc_vehicle_1_entity"
+	clone = "owb_motorized_2_entity" #"owb_apc_entity"
+	attach = { name = "infantry_right" infantry_right = "ITZ_mech_1_infantry" }
+	attach = { name = "infantry_left" infantry_left = "ITZ_mech_1_infantry" }
+}
+entity = {
+	name = "ITZ_mech_1_infantry"
+	clone = "infantry_mech_unit_entity"
+	pdxmesh = "itza_warrior_mesh"
+}
+entity = {
+		name = "ITZ_apc_2_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_2_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "ITZ_apc_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_3_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "ITZ_apc_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_4_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "ITZ_apc_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_5_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+#Twin Mothers
+entity = {
+		name = "TTM_motorized_entity"
+		clone = "owb_motorized_entity"
+		attach = { 	name = "Human"			Human = "ITZ_infantry_bike_entity" }
+}
+entity = {
+		name = "TTM_motorized_2_entity"
+		clone = "owb_motorized_2_entity"
+		attach = { 	name = "Human"			Human = "ITZ_infantry_bike_2_entity" }
+}
+entity = {
+		name = "TTM_motorized_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_3_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "TTM_motorized_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_4_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "TTM_motorized_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_5_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+
+entity = {
+		name = "TTM_apc_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_1_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ITZ_apc_vehicle_1_entity" }
+}
+entity = {
+	name = "TTM_apc_vehicle_1_entity"
+	clone = "owb_motorized_2_entity" #"owb_apc_entity"
+	attach = { name = "infantry_right" infantry_right = "ITZ_mech_1_infantry" }
+	attach = { name = "infantry_left" infantry_left = "ITZ_mech_1_infantry" }
+}
+entity = {
+	name = "TTM_mech_1_infantry"
+	clone = "infantry_mech_unit_entity"
+	pdxmesh = "itza_warrior_mesh"
+}
+entity = {
+		name = "TTM_apc_2_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_2_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "TTM_apc_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_3_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "TTM_apc_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_4_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "TTM_apc_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_5_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+#ORO - Ouroboros
+entity = {
+		name = "ORO_motorized_entity"
+		clone = "owb_motorized_entity"
+		attach = { 	name = "Human"			Human = "ITZ_infantry_bike_entity" }
+}
+entity = {
+		name = "ORO_motorized_2_entity"
+		clone = "owb_motorized_2_entity"
+		attach = { 	name = "Human"			Human = "ITZ_infantry_bike_2_entity" }
+}
+entity = {
+		name = "ORO_motorized_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_3_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "ORO_motorized_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_4_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "ORO_motorized_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_5_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+
+entity = {
+		name = "ORO_apc_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_1_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ITZ_apc_vehicle_1_entity" }
+}
+entity = {
+	name = "ORO_apc_vehicle_1_entity"
+	clone = "owb_motorized_2_entity" #"owb_apc_entity"
+	attach = { name = "infantry_right" infantry_right = "ITZ_mech_1_infantry" }
+	attach = { name = "infantry_left" infantry_left = "ITZ_mech_1_infantry" }
+}
+entity = {
+	name = "ORO_mech_1_infantry"
+	clone = "infantry_mech_unit_entity"
+	pdxmesh = "itza_warrior_mesh"
+}
+entity = {
+		name = "ORO_apc_2_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_2_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "ORO_apc_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_3_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "ORO_apc_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_4_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+entity = {
+		name = "ORO_apc_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_5_entity"
+		attach = { 	name = "infantry"			infantry = "ITZ_infantry_5_entity" }
+}
+#New Caanan
+entity = {
+		name = "NCN_motorized_entity"
+		clone = "owb_motorized_entity"
+		attach = { 	name = "Human"			Human = "NCN_infantry_bike_entity" }
+}
+entity = {
+		name = "NCN_motorized_2_entity"
+		clone = "owb_motorized_2_entity"
+		attach = { 	name = "Human"			Human = "NCN_infantry_bike_2_entity" }
+}
+entity = {
+		name = "NCN_motorized_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_3_entity"
+		attach = { 	name = "infantry"			infantry = "NCN_infantry_5_entity" }
+}
+entity = {
+		name = "NCN_motorized_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_4_entity"
+		attach = { 	name = "infantry"			infantry = "NCN_infantry_5_entity" }
+}
+entity = {
+		name = "NCN_motorized_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_motorized_5_entity"
+		attach = { 	name = "infantry"			infantry = "NCN_infantry_5_entity" }
+}
+
+entity = {
+		name = "NCN_apc_1_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_1_entity"
+		attach = { 	name = "infantry"			infantry = "NCN_infantry_5_entity" }
+		attach = { 	name = "vehicle"			vehicle = "NCN_apc_vehicle_1_entity" }
+}
+entity = {
+	name = "NCN_apc_vehicle_1_entity"
+	clone = "owb_motorized_2_entity" #"owb_apc_entity"
+	attach = { name = "infantry_right" infantry_right = "NCN_mech_1_infantry" }
+	attach = { name = "infantry_left" infantry_left = "NCN_mech_1_infantry" }
+}
+entity = {
+	name = "NCN_mech_1_infantry"
+	clone = "infantry_mech_unit_entity"
+	pdxmesh = "mormon_trooper_mesh"
+}
+entity = {
+		name = "NCN_apc_2_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_2_entity"
+		attach = { 	name = "infantry"			infantry = "NCN_infantry_5_entity" }
+}
+entity = {
+		name = "NCN_apc_3_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_3_entity"
+		attach = { 	name = "infantry"			infantry = "NCN_infantry_5_entity" }
+}
+entity = {
+		name = "NCN_apc_4_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_4_entity"
+		attach = { 	name = "infantry"			infantry = "NCN_infantry_5_entity" }
+}
+entity = {
+		name = "NCN_apc_5_entity"
+		clone = "owb_motorized_2_entity" #"owb_mechanized_5_entity"
+		attach = { 	name = "infantry"			infantry = "NCN_infantry_5_entity" }
+}

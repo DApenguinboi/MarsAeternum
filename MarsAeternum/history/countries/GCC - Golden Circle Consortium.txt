@@ -139,7 +139,7 @@ set_convoys = 100
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = corporatism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -148,7 +148,7 @@ set_popularities = {
 	democratic = 10
 	fascism = 10
 	communism = 0
-	neutrality = 80
+	corporatism = 80
 }
 
 add_ideas = {
@@ -158,9 +158,9 @@ add_ideas = {
 	home_of_the_free
 }
 
-1939.1.1 = {
+2939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = fascism
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = no
@@ -168,8 +168,8 @@ add_ideas = {
 	set_popularities = {
 		democratic = 9
 		communism = 0
-		neutrality = 79
-		fascism = 2
+		neutrality = 9
+		fascism = 72
 	}
 }
 
@@ -218,7 +218,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "portrait_GCC_the_board_of_directors.dds"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = generic_corporatism
 	traits = {
 		the_banker
 		strict_austerity_adherent

@@ -4,7 +4,7 @@ oob = "USA_1936"
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = corporatism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -13,7 +13,7 @@ set_popularities = {
 	democratic = 31
 	communism = 1
 	fascism = 12
-	neutrality = 56
+	corporatism = 56
 }
 
 add_ideas = {
@@ -33,7 +33,7 @@ set_autonomy = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = corporatism
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes
@@ -45,9 +45,9 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "portrait_SWI_federal_council.dds"
 	expire = "1947.1.1"
-	ideology = oligarchism
+	ideology = neo_corporatism
 	traits = {
-		
+		CAN_liberal_corporatist
 	}
 }
 

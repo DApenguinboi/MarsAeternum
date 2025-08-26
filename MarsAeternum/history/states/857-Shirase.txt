@@ -1,0 +1,22 @@
+	
+state={
+	id=857
+	name="STATE_857"
+	manpower = 10590200
+	
+	
+	state_category = town
+
+	history={
+		owner = SHI
+		victory_points = {
+			4622 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		729 986 4383 4622 5222 9538 9997
+	}

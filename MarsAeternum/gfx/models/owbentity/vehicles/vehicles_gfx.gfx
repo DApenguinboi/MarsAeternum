@@ -1,0 +1,203 @@
+objectTypes = {
+	pdxmesh = {
+		name = "chariot_frame_mesh"
+		file = "gfx/models/owbentity/vehicles/chariot_1/chariot_frame_mesh.mesh"
+		animation = { id = "idle"			type = "chariot_frame_idle_anim" }
+		animation = { id = "move"			type = "chariot_frame_move_anim" }
+		animation = { id = "no_bike"			type = "chariot_frame_no_bike_anim" }
+		animation = { id = "on_chariot"			type = "chariot_frame_on_chariot_anim" }
+	}
+	pdxmesh = {
+		name = "chariot_1_mesh"
+		file = "gfx/models/owbentity/vehicles/chariot_1/chariot_1_mesh.mesh"
+		animation = { id = "idle"			type = "chariot_idle_anim" }
+		animation = { id = "move"			type = "chariot_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "chariot_1_d.dds"
+			texture_normal = "chariot_1_n.dds"
+			texture_specular = "chariot_1_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "chariot_2_frame_mesh"
+		file = "gfx/models/owbentity/vehicles/chariot_2/chariot_2_frame_mesh.mesh"
+		animation = { id = "idle"			type = "chariot_2_frame_idle_anim" }
+		animation = { id = "move"			type = "chariot_2_frame_move_anim" }
+		animation = { id = "no_bike"			type = "chariot_2_frame_no_bike_anim" }
+		animation = { id = "on_chariot"			type = "chariot_2_frame_on_chariot_anim" }
+	}
+	pdxmesh = {
+		name = "nucleartank_mesh"
+		file = "gfx/models/owbentity/vehicles/nucleartank/nucleartank.mesh"
+
+		animation = { id = "idle"			type = "nucleartank_idle_anim" }
+		animation = { id = "move"			type = "nucleartank_move_anim" }
+		animation = { id = "attack"			type = "nucleartank_attack_anim" }
+
+		meshsettings = {
+			texture_diffuse = "nucleartank_d.dds"
+			texture_normal = "nucleartank_n.dds"
+			texture_specular = "nucleartank_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "chariot_2_mesh"
+		file = "gfx/models/owbentity/vehicles/chariot_2/chariot_2_mesh.mesh"
+		animation = { id = "idle"			type = "chariot_2_idle_anim" }
+		animation = { id = "move"			type = "chariot_2_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "chariot_2_d.dds"
+			texture_normal = "chariot_2_n.dds"
+			texture_specular = "chariot_2_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "moto_frame_mesh"
+		file = "gfx/models/owbentity/vehicles/moto_1/moto_frame_mesh.mesh"
+		animation = { id = "idle"			type = "moto_frame_idle_anim" }
+		animation = { id = "move"			type = "moto_frame_move_anim" }
+		animation = { id = "no_bike"			type = "moto_frame_no_bike_anim" }
+		meshsettings = {
+			texture_diffuse = "no_diffuse.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+	}
+	pdxmesh = {
+		name = "snowmobile_mesh"
+		file = "gfx/models/owbentity/vehicles/snowmobile/snowmobile.mesh"
+		animation = { id = "idle"			type = "moto_idle_anim" }
+		animation = { id = "move"			type = "moto_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "snowmobile_d.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+	}
+	pdxmesh = {
+		name = "moto_scrap_mesh"
+		file = "gfx/models/owbentity/vehicles/moto_1/moto_1_mesh.mesh"
+		animation = { id = "idle"			type = "moto_idle_anim" }
+		animation = { id = "move"			type = "moto_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "moto_1_d.dds"
+			texture_normal = "moto_1_n.dds"
+			texture_specular = "moto_1_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "moto_salvaged_mesh"
+		file = "gfx/models/owbentity/vehicles/moto_2/moto_2_mesh.mesh"
+		animation = { id = "idle"			type = "moto_idle_anim" }
+		animation = { id = "move"			type = "moto_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "moto_2_d.dds"
+			texture_normal = "moto_2_n.dds"
+			texture_specular = "moto_2_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "corvega_motoried_mesh"
+		file = "gfx/models/owbentity/vehicles/corvega/corvega_mesh.mesh"
+		animation = { id = "idle"			type = "US_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "US_mechanized_01_move_animation" }
+
+		meshsettings = {
+			texture_diffuse = "corvega_d.dds"
+			texture_normal = "corvega_n.dds"
+			texture_specular = "corvega_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "highwayman_motoried_mesh"
+		file = "gfx/models/owbentity/vehicles/highwayman/highwayman_mesh.mesh"
+		animation = { id = "idle"			type = "US_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "US_mechanized_01_move_animation" }
+
+		meshsettings = {
+			texture_diffuse = "highwayman_d.dds"
+			texture_normal = "highwayman_n.dds"
+			texture_specular = "highwayman_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "humvee_motoried_mesh"
+		file = "gfx/models/owbentity/vehicles/humvee/humvee_mesh.mesh"
+		animation = { id = "idle"			type = "US_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "US_mechanized_01_move_animation" }
+
+		meshsettings = {
+			texture_diffuse = "humvee_d.dds"
+			texture_normal = "humvee_n.dds"
+			texture_specular = "humvee_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "apc_1_mesh"
+		file = "gfx/models/owbentity/vehicles/apc_1/apc_1.mesh"
+		animation = { id = "move"			type = "apc_1_move_anim" }
+		animation = { id = "idle"			type = "apc_1_idle_anim" }
+
+		meshsettings = {
+			texture_diffuse = "apc_1_d.dds"
+			texture_normal = "apc_1_n.dds"
+			texture_specular = "apc_1_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "apc_2_mesh"
+		file = "gfx/models/owbentity/vehicles/apc_2/apc_2.mesh"
+		animation = { id = "idle"			type = "apc_2_idle_anim" }
+		animation = { id = "move"			type = "apc_2_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "apc_2_d.dds"
+			texture_normal = "apc_2_n.dds"
+			texture_specular = "apc_2_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "apc_3_mesh"
+		file = "gfx/models/owbentity/vehicles/apc_3/apc_3.mesh"
+		animation = { id = "idle"			type = "apc_3_idle_anim" }
+		animation = { id = "move"			type = "apc_3_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "apc_3_d.dds"
+			texture_normal = "apc_3_n.dds"
+			texture_specular = "apc_3_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "apc_4_mesh"
+		file = "gfx/models/owbentity/vehicles/apc_4/apc_4.mesh"
+		animation = { id = "idle"			type = "apc_4_idle_anim" }
+		animation = { id = "move"			type = "apc_4_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "apc_4_d.dds"
+			texture_normal = "apc_4_n.dds"
+			texture_specular = "apc_4_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "apc_5_mesh"
+		file = "gfx/models/owbentity/vehicles/apc_5/apc_5.mesh"
+		animation = { id = "idle"			type = "apc_5_idle_anim" }
+		animation = { id = "move"			type = "apc_5_move_anim" }
+		animation = { id = "attack"			type = "apc_5_attack_anim" }
+		animation = { id = "defend"			type = "apc_5_defend_anim" }
+
+		meshsettings = {
+			texture_diffuse = "apc_5_d.dds"
+			texture_normal = "apc_5_n.dds"
+			texture_specular = "apc_5_s.dds"
+		}
+	}
+}

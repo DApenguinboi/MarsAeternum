@@ -1,6 +1,24 @@
 state={
 	id=810
 	name="STATE_810"
+		
+	state_category = megalopolis
+
+	history={
+		owner = GCC
+		victory_points = {
+			13408 30 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 7
+			dockyard = 3
+			air_base = 10
+
+			}
+
+		}
 	provinces={
 		5549 6290 8826 13408 
 	}

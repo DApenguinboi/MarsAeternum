@@ -1,0 +1,24 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "CES_powerarmor_t51_mesh"
+		file = "gfx/models/owbentity/countries/ces/ces_t51.mesh"
+		#scale = 0.45
+
+		animation = { id = "move"			type = "fo4_t51_walk_anim" }
+		animation = { id = "attack"			type = "fo4_t51_running_anim" }
+		animation = { id = "shoot"			type = "fo4_t51_fire_anim" }
+		animation = { id = "retreat"		type = "fo4_t51_retreat_anim" }
+		animation = { id = "idle1"			type = "fo4_t51_idel1_anim" }
+		animation = { id = "idle2"			type = "fo4_t51_idel2_anim" }
+
+		meshsettings = {
+			name = "jorodoxShape"
+			index = 0
+			shader="PdxMeshAdvanced"
+			texture_diffuse = "ces_t51_d.dds"
+			texture_normal = "ces_t51_n.dds"
+			texture_specular = "ces_t51_s.dds"
+		}
+	}
+}

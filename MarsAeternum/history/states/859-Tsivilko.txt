@@ -1,0 +1,22 @@
+	
+state={
+	id=859
+	name="STATE_859"
+	manpower = 10590200
+	
+	
+	state_category = town
+
+	history={
+		owner = MSA
+		victory_points = {
+			5443 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		1138 5443 9924
+	}

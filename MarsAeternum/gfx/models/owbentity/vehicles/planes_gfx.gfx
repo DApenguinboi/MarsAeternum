@@ -1,0 +1,255 @@
+objectTypes = {
+	pdxmesh = {
+		name = "propeller_anim_mesh"
+		file = "gfx/models/owbentity/vehicles/air_1/propeller_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "propeller.dds"
+			texture_normal = "cessna_n.dds"
+			texture_specular = "cessna_s.dds"
+		}
+	}
+	####CAS
+	#BIPLANE
+	pdxmesh = {
+		name = "air_cas_1_mesh"
+		file = "gfx/models/owbentity/vehicles/air_cas_2/cessna_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "cessna_d.dds"
+			texture_normal = "cessna_n.dds"
+			texture_specular = "cessna_s.dds"
+		}
+	}
+	#CESSNA
+	pdxmesh = {
+		name = "air_cas_2_mesh"
+		file = "gfx/models/owbentity/vehicles/air_cas_2/cessna_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "cessna_d.dds"
+			texture_normal = "cessna_n.dds"
+			texture_specular = "cessna_s.dds"
+		}
+	}
+	#A10
+	pdxmesh = {
+		name = "air_cas_3_mesh"
+		file = "gfx/models/owbentity/vehicles/air_cas_3/A10_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "A10_d.dds"
+			texture_normal = "A10_n.dds"
+			texture_specular = "A10_s.dds"
+		}
+	}
+	#STINGRAY
+	pdxmesh = {
+		name = "air_cas_4_mesh"
+		file = "gfx/models/owbentity/vehicles/air_cas_4/stingray_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "stingray_d.dds"
+			texture_normal = "stingray_n.dds"
+			texture_specular = "stingray_s.dds"
+		}
+	}
+	#VERTIBIRD GUNSHIP
+	pdxmesh = {
+		name = "air_cas_5_mesh"
+		file = "gfx/models/owbentity/vehicles/air_cas_5/vertibirdgunship_mesh.mesh"
+		animation = { id = "idle" type = "vertibird_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "vertibirdgunship_d.dds"
+			texture_normal = "vertibirdgunship_n.dds"
+			texture_specular = "vertibirdgunship_s.dds"
+		}
+	}
+	###AIR FIGHTER
+	#BIPLANE
+	pdxmesh = {
+		name = "air_fighter_1_mesh"
+		file = "gfx/models/owbentity/vehicles/air_fighter_1/biplane_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "biplane_d.dds"
+			texture_normal = "biplane_n.dds"
+			texture_specular = "biplane_s.dds"
+		}
+	}
+	#MONOPROP
+	pdxmesh = {
+		name = "air_fighter_2_mesh"
+		file = "gfx/models/owbentity/vehicles/air_fighter_2/monoprop_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "monoprop_d.dds"
+			texture_normal = "monoprop_n.dds"
+			texture_specular = "monoprop_s.dds"
+		}
+	}
+	#P80
+	pdxmesh = {
+		name = "air_fighter_3_mesh"
+		file = "gfx/models/owbentity/vehicles/air_fighter_3/p80_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "p80_d.dds"
+			texture_normal = "p80_n.dds"
+			texture_specular = "p80_s.dds"
+		}
+	}
+	#NUCLEAR FIGHTER
+	pdxmesh = {
+		name = "air_fighter_4_mesh"
+		file = "gfx/models/owbentity/vehicles/air_fighter_4/nuclearfighter_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "nuclearfighter_d.dds"
+			texture_normal = "nuclearfighter_n.dds"
+			texture_specular = "nuclearfighter_s.dds"
+		}
+	}
+	#XIAN 85
+	pdxmesh = {
+		name = "air_fighter_5_mesh"
+		file = "gfx/models/owbentity/vehicles/air_fighter_5/xian85_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "xian85_d.dds"
+			texture_normal = "xian85_n.dds"
+			texture_specular = "xian85_s.dds"
+		}
+	}
+	###AIR STRAT
+	#R PLANE
+	pdxmesh = {
+		name = "air_strat_1_mesh"
+		file = "gfx/models/owbentity/vehicles/air_strat_1/r_plane_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "r_plane_d.dds"
+			texture_normal = "r_plane_n.dds"
+			texture_specular = "r_plane_s.dds"
+		}
+	}
+	#B29
+	pdxmesh = {
+		name = "air_strat_2_mesh"
+		file = "gfx/models/owbentity/vehicles/air_strat_2/B29_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "B29_d.dds"
+			texture_normal = "B29_n.dds"
+			texture_specular = "B29_s.dds"
+		}
+	}
+	#B58
+	pdxmesh = {
+		name = "air_strat_3_mesh"
+		file = "gfx/models/owbentity/vehicles/air_strat_3/B58_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "B58_d.dds"
+			texture_normal = "B58_n.dds"
+			texture_specular = "B58_s.dds"
+		}
+	}
+	#NUCLEAR BOMBER
+	pdxmesh = {
+		name = "air_strat_4_mesh"
+		file = "gfx/models/owbentity/vehicles/air_strat_4/nuclear_bomber_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "nuclear_bomber_d.dds"
+			texture_normal = "nuclear_bomber_n.dds"
+			texture_specular = "nuclear_bomber_s.dds"
+		}
+	}
+	###AIR TRANSPORT
+	#GLIDER
+	pdxmesh = {
+		name = "air_transport_1_mesh"
+		file = "gfx/models/owbentity/vehicles/air_transport_1/transportglider_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "transportglider_d.dds"
+			texture_normal = "transportglider_n.dds"
+			texture_specular = "transportglider_s.dds"
+		}
+	}
+	#CARGOPLANE
+	pdxmesh = {
+		name = "air_transport_2_mesh"
+		file = "gfx/models/owbentity/vehicles/air_transport_2/cargoplane_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "cargoplane_d.dds"
+			texture_normal = "cargoplane_n.dds"
+			texture_specular = "cargoplane_s.dds"
+		}
+	}
+	#DREAMLIFTER
+	pdxmesh = {
+		name = "air_transport_3_mesh"
+		file = "gfx/models/owbentity/vehicles/air_transport_3/dreamlifter_mesh.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "dreamlifter_d.dds"
+			texture_normal = "dreamlifter_n.dds"
+			texture_specular = "dreamlifter_s.dds"
+		}
+	}
+	#VERTIBIRD TRANSPORT
+	pdxmesh = {
+		name = "air_transport_4_mesh"
+		file = "gfx/models/owbentity/vehicles/air_transport_4/vertibirdtransport.mesh"
+		animation = { id = "idle" type = "vertibird_idle_animation" }
+
+		meshsettings = {
+			texture_diffuse = "vertibird_diffuse.dds"
+			texture_normal = "vertibird_normal.dds"
+			texture_specular = "vertibird_specular.dds"
+		}
+	}
+	pdxmesh = {
+		name = "air_ship_1_mesh"
+		file = "gfx/models/owbentity/vehicles/air_ship_1/air_ship_1.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "air_ship_1_d.dds"
+			texture_normal = "air_ship_1_n.dds"
+			texture_specular = "air_ship_1_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "air_ship_2_mesh"
+		file = "gfx/models/owbentity/vehicles/air_ship_2/air_ship_2.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "air_ship_2_d.dds"
+			texture_normal = "air_ship_2_n.dds"
+			texture_specular = "air_ship_2_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "air_ship_3_mesh"
+		file = "gfx/models/owbentity/vehicles/air_ship_3/air_ship_3.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "air_ship_3_d.dds"
+			texture_normal = "air_ship_3_n.dds"
+			texture_specular = "air_ship_3_s.dds"
+		}
+	}
+	pdxmesh = {
+		name = "air_ship_4_mesh"
+		file = "gfx/models/owbentity/vehicles/air_ship_4/air_ship_4.mesh"
+		animation = { id = "idle" type = "owb_air_idle_anim" }
+		meshsettings = {
+			texture_diffuse = "air_ship_4_d.dds"
+			texture_normal = "air_ship_4_n.dds"
+			texture_specular = "air_ship_4_s.dds"
+		}
+	}
+}

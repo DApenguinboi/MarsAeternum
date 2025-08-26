@@ -139,7 +139,7 @@ set_stability = 0.7
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -158,9 +158,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Klaus Klauser"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	picture = "portrait_spa_miguel_cabanellas.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = police_state
 	traits = {
 	}
 }

@@ -1,0 +1,25 @@
+
+state={
+	id=840
+	name="STATE_840"
+	manpower = 10590200
+	
+	
+	state_category = town
+	resources={
+		oil=3 # was: 4
+	}
+
+	history={
+		owner = SRB
+		victory_points = {
+			9975 1 
+		}
+		buildings = {
+		}
+
+	}
+
+	provinces={
+		720 1402 3525 9805 9975 
+	}

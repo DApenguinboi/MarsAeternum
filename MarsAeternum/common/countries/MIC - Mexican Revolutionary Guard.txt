@@ -1,0 +1,3 @@
+graphical_culture = mexico_gfx
+graphical_culture_2d = mexico_2d
+color = { 230 230 230 }

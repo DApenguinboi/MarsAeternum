@@ -2,16 +2,17 @@
 
  
 set_politics = {
-	ruling_party = democratic
+	ruling_party = socialism
 	last_election = "1935.11.14"
 	election_frequency = 4
 	elections_allowed = yes 
 }
 set_popularities = {
-	democratic = 70
+	socialism = 40
+	democratic = 35
 	fascism = 3
-	communism = 10
-	neutrality = 17
+	communism = 15
+	neutrality = 7
 }
 
 create_country_leader = {
@@ -19,14 +20,16 @@ create_country_leader = {
 	desc = "POLITICS_HORST_BUCKMAN_DESC"
 	picture = "portrait_horst_buckman.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = bor_socialism
 	traits = {
 		the_gentleman_president
 		british_bulldog
 		militant_socialist
 		retired_officer 
-		democratic_reformer
+		backed_by_political_coalition
 		tenacious_negotiator
+		pragmatic_socialist
+		patriotic_socialist
 	}
 }
 
@@ -44,14 +47,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abraham Rademaker"
-	desc = "POLITICS_HARRY_POLLITT_DESC"
-	picture = "portrait_spr_jose_miaja.dds"
+	name = "Horst Buckman"
+	desc = "POLITICS_HORST_BUCKMAN_DESC"
+	picture = "portrait_horst_buckman.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = browderism
 	traits = {
-		reluctant_stalinist
-		revolutionary_culture_minister
+		the_gentleman_president
+		british_bulldog
+		militant_socialist
+		retired_officer 
+		backed_by_political_coalition
+		tenacious_negotiator
+		conservative_communist
 	}
 }
 
@@ -68,6 +76,7 @@ create_country_leader = {
 		backroom_windbag
 		propaganda_bungler
 	}
+}
 	
 create_field_marshal = {
 	name = "Alan Brooke" # Aristocrat

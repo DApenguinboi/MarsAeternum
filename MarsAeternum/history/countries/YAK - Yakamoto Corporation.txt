@@ -17,13 +17,13 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corporatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	corporatism = 100
 }
 
 create_country_leader = {
@@ -37,3 +37,23 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Yakamoto Chikara"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Chikara_Yakamoto.dds"
+	expire = "2989.1.1"
+	ideology = kintsugi_corporatism
+	traits = {
+		sins_of_the_father
+	}
+}
+
+create_country_leader = {
+	name = "Abe Hideki"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Asia_Generic_fascism.dds"
+	expire = "2989.1.1"
+	ideology = criminal_syndicalism
+	traits = {
+	}
+}

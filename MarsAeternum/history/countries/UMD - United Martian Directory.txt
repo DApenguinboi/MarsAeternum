@@ -28,7 +28,7 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "portrait_RAJ_louis_mountbatten.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = martian_fascism
 	traits = {
 		dictator
 	}

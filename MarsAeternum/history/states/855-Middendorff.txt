@@ -1,0 +1,22 @@
+	
+state={
+	id=855
+	name="STATE_855"
+	manpower = 10590200
+	
+	
+	state_category = town
+
+	history={
+		owner = SRB
+		victory_points = {
+			4058 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		4058
+	}

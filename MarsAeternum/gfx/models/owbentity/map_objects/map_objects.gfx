@@ -1,0 +1,388 @@
+objectTypes = {
+	pdxmesh = {
+		name = "nuclear_crater_mesh"
+		file = "gfx/models/owbentity/map_objects/crater/nuclear_crater.mesh"
+		meshsettings = {
+			name = "jorodoxShape"
+			index = 0
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "nuclear_crater_diffuse.dds"
+			texture_normal = "nuclear_crater_normal.dds"
+			texture_specular = "nuclear_crater_spec.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "chichen_itza"
+		file = "gfx/models/owbentity/map_objects/itza_pyramid/chichen_itza.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "itza_d.dds"
+			texture_normal = "itza_n.dds"
+			texture_specular = "itza_s.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "halberd_mesh"
+		file = "gfx/models/owbentity/map_objects/halberd/halberd.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "halberd.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "arroyo_head_mesh"
+		file = "gfx/models/owbentity/map_objects/arroyo_head/arroyo_head.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "arroyo_head.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "novac_mesh"
+		file = "gfx/models/owbentity/map_objects/novacancy/novac.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "novac.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "shady_mesh"
+		file = "gfx/models/owbentity/map_objects/shady/shady.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "shady.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "cathedralcrater_mesh"
+		file = "gfx/models/owbentity/map_objects/march/cathedralcrater.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "cathedralcrater.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "dome_mesh"
+		file = "gfx/models/owbentity/map_objects/march/dome.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "dome.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "junktown_mesh"
+		file = "gfx/models/owbentity/map_objects/march/junktown.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "junktown.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "plaguewall_mesh"
+		file = "gfx/models/owbentity/map_objects/march/plaguewall.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "plaguewall.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "wendover_mesh"
+		file = "gfx/models/owbentity/map_objects/march/wendover.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "wendover.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "darkpyramid_mesh"
+		file = "gfx/models/owbentity/map_objects/march/darkpyramid.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "darkpyramid.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "circus_mesh"
+		file = "gfx/models/owbentity/map_objects/march/circus.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "circus.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "the_glow_mesh"
+		file = "gfx/models/owbentity/map_objects/theglow/theglow.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "theglow.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "rushmore_mesh"
+		file = "gfx/models/owbentity/map_objects/rushmore/rushmore.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "rushmore.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "needle_mesh"
+		file = "gfx/models/owbentity/map_objects/needle/needle.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "needle.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "dallas_mesh"
+		file = "gfx/models/owbentity/map_objects/dallas/dallas.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "dallas.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "cross_mesh"
+		file = "gfx/models/owbentity/map_objects/cross/cross.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "cross.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "alamo_mesh"
+		file = "gfx/models/owbentity/map_objects/alamo/alamo.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "alamo.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "bighorn_mesh"
+		file = "gfx/models/owbentity/map_objects/bighorn/bighorn.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "bighorn.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "goldengate_mesh"
+		file = "gfx/models/owbentity/map_objects/goldengate/goldengate.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "goldengate.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "deviltower_mesh"
+		file = "gfx/models/owbentity/map_objects/deviltower/deviltower.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "deviltower.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "lost_hills_bunker_mesh"
+		file = "gfx/models/owbentity/map_objects/lost_hills/lost_hills_bunker.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "lost_hills_bunker_diffuse.dds"
+			texture_normal = "lost_hills_bunker_normal.dds"
+			texture_specular = "lost_hills_bunker_spec.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "vault_city_mesh"
+		file = "gfx/models/owbentity/map_objects/vaults/vault_city.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "vault_city_diffuse.dds"
+			texture_normal = "vault_city_normal.dds"
+			texture_specular = "vault_city_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "vault_council_mesh"
+		file = "gfx/models/owbentity/map_objects/vaults/vault_council.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "vault_council.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "reno_mesh"
+		file = "gfx/models/owbentity/map_objects/reno/reno.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "reno.dds"
+			texture_normal = "no_normal.dds"
+			texture_specular = "no_spec.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "black_mountain_mesh"
+		file = "gfx/models/owbentity/map_objects/black_mountain/black_mountain.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "black_mountain_diffuse.dds"
+			texture_normal = "black_mountain_normal.dds"
+			texture_specular = "black_mountain_spec.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "vault_generic_1_mesh"
+		file = "gfx/models/owbentity/map_objects/vaults/vault_generic_1.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "vault_generic_1_diffuse.dds"
+			texture_normal = "vault_generic_1_normal.dds"
+			texture_specular = "vault_generic_1_spec.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "vault_generic_2_mesh"
+		file = "gfx/models/owbentity/map_objects/vaults/vault_generic_2.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "vault_generic_2_diffuse.dds"
+			texture_normal = "vault_generic_2_normal.dds"
+			texture_specular = "vault_generic_2_spec.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "vault_generic_3_mesh"
+		file = "gfx/models/owbentity/map_objects/vaults/vault_generic_3.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "vault_generic_3_diffuse.dds"
+			texture_normal = "vault_generic_3_normal.dds"
+			texture_specular = "vault_generic_3_spec.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "hoover_dam_mesh"
+		file = "gfx/models/owbentity/map_objects/dam/hoover_dam.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "hoover_dam_diffuse.dds"
+			texture_normal = "hoover_dam_normal.dds"
+			texture_specular = "hoover_dam_spec.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "helios_building_mesh"
+		file = "gfx/models/owbentity/map_objects/helios_1/helios_1.mesh"
+		##animation = { id = "idle"			type = "helios_1_idle" }
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "helios_1_d.dds"
+			texture_normal = "helios_1_n.dds"
+			texture_specular = "helios_1_s.dds"
+		}
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "lucky_38_mesh"
+		file = "gfx/models/owbentity/map_objects/lucky_38/lucky38.mesh"
+		meshsettings = {
+			shader="PdxMeshAdvancedSnow"
+			texture_diffuse = "lucky38_d.dds"
+			texture_normal = "lucky38_n.dds"
+			texture_specular = "lucky38_s.dds"
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "brahmin_mesh"
+		file = "gfx/models/owbentity/map_objects/brahmin_caravan/brahmin.mesh"
+		animation = { id = "move"			type = "owb_brahmin_walk_amin" }
+		meshsettings = {
+			shader="PdxMeshAdvanced"
+			texture_diffuse = "brahmin_dif.dds"
+			texture_normal = "brahmin_norm.dds"
+			texture_specular = "brahmin_spec.dds"
+		}
+		scale = 1.0
+	}
+}

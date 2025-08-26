@@ -132,6 +132,15 @@ set_popularities = {
 add_ideas = {
 }
 
+	create_country_leader = {
+		name = "Rex Corrigan"
+		desc = ""
+		picture = "Portrait_USA_George_S_Patton.dds"
+		expire = "1965.1.1"
+		ideology = stratocracy
+		traits = {
+		}
+	}
 
 
 #create_country_leader = {

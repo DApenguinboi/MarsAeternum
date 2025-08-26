@@ -8,13 +8,13 @@ set_convoys = 400
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = corporatism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 69
+	corporatism = 69
 	communism = 1
 	democratic = 20
 	fascism = 10
@@ -25,7 +25,7 @@ create_country_leader = {
 	desc = "Anton Kearney is a Strasserist and a Revisionist"
 	picture = "portrait_SWE_nordic_defense_council.dds"
 	expire = "2965.1.1"
-	ideology = oligarchism
+	ideology = generic_corporatism
 	traits = { 
 		
 	}
@@ -76,7 +76,7 @@ add_ideas = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = corporatism
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes

@@ -1,0 +1,22 @@
+	
+state={
+	id=842
+	name="STATE_842"
+	manpower = 10590200
+	
+	
+	state_category = pastoral
+
+	history={
+		owner = SRB
+		victory_points = {
+			9978 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		559 9978
+	}

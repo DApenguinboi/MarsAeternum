@@ -1,13 +1,4 @@
-﻿capital = 41
-
-oob = "SPR_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SPR_1936_naval_mtg"
-	else = {
-		set_naval_oob = "SPR_1936_naval_legacy"
-	}
-}
+﻿capital = 57
 
 if = {
 	limit = {
@@ -52,62 +43,6 @@ if = {
 		fascism = 37
 		communism = 7
 		neutrality = 15
-	}
-	create_dynamic_country = {
-	    original_tag = SPR
-	    set_country_flag = SPR_nationalist_spain_flag
-		set_politics = {
-			ruling_party = neutrality
-		}
-		set_cosmetic_tag = SPR_nationalist_spain
-		set_research_slots = 3
-	    reserve_dynamic_country = yes
-	}
-	create_dynamic_country = {
-	    original_tag = SPR
-	    set_country_flag = SPR_carlist_spain_flag
-	    set_politics = {
-			ruling_party = neutrality
-		}
-		set_cosmetic_tag = SPR_carlist_spain
-		set_research_slots = 3
-	    reserve_dynamic_country = yes
-	}
-	create_dynamic_country = {
-	    original_tag = SPR
-	    set_country_flag = SPR_anarchist_spain_flag
-	    set_politics = {
-			ruling_party = neutrality
-		}
-		set_cosmetic_tag = SPR_anarchist_spain
-		set_research_slots = 3
-	    reserve_dynamic_country = yes
-	}
-	SPR = {
-		set_variable = { var = spa_civil_war_divisions_counter_var value = 17 }
-		set_variable = { var = spr_civil_war_divisions_counter_var value = 66 }
-	}
-	for_each_scope_loop = {
-	    array = core_states
-	    
-	    set_state_flag = SPR_original_core
-	}
-	add_ideas = {
-		SPA_carlism_1
-		SPR_military_disloyalty
-		SPR_political_violence
-		SPR_national_strikes_3
-	}
-	165 = {
-		add_dynamic_modifier = { modifier = autonomous_state }
-	}
-	171 = {
-		add_dynamic_modifier = { modifier = autonomous_state }
-	}
-	792 = {
-		add_dynamic_modifier = { modifier = autonomous_state }
-	}
-}
 
 set_research_slots = 3
 

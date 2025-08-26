@@ -1,0 +1,17 @@
+entity = {
+	name = "BOS_support_robot_entity"
+	pdxmesh = "BOS_protectron_mesh"
+	clone = "support_robot_4_entity"
+}
+
+entity = {
+	name = "VLT_support_robot_entity"
+	pdxmesh = "VLT_protectron_mesh"
+	clone = "support_robot_4_entity"
+}
+
+entity = {
+	name = "MDM_security_robot_entity"
+	pdxmesh = "marketron_mesh"
+	clone = "security_robot_entity"
+}

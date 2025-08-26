@@ -1,0 +1,20 @@
+objectTypes = {
+	pdxmesh = {
+		name = "VLT_protectron_mesh"
+		file = "gfx/models/owbentity/countries/vlt/vlt_protectron.mesh"
+		#scale = 0.45
+
+		animation = { id = "idle"			type = "protectron_idle_anim" }
+		animation = { id = "idle2"			type = "protectron_idle_2_anim" }
+		animation = { id = "attack"			type = "protectron_attack_anim" }
+		animation = { id = "move"			type = "protectron_walk_anim" }
+		animation = { id = "retreat"		type = "protectron_retreat_anim" }
+
+		meshsettings = {
+			texture_diffuse = "vlt_protectron_diffuse.dds"
+			texture_normal = "vlt_protectron_normal.dds"
+			texture_specular = "vlt_protectron_specular.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

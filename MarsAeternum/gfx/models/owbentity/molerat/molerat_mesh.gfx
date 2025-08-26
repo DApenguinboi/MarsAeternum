@@ -1,0 +1,25 @@
+objectTypes = {
+	####molerat
+	pdxmesh = {
+		name = "molerat_mesh"
+		file = "gfx/models/owbentity/molerat/molerat.mesh"
+
+
+		animation = { id = "idle"			type = "molerat_idle_anim" }
+		animation = { id = "move"			type = "molerat_move_anim" }
+		animation = { id = "charge"			type = "molerat_charge_anim" }
+		animation = { id = "attack"			type = "molerat_attack_anim" }
+		animation = { id = "defend"			type = "molerat_attack_anim" }
+		animation = { id = "training"			type = "molerat_training_anim" }
+		animation = { id = "jumping_jacks"			type = "molerat_training_anim" }
+		animation = { id = "pushup"			type = "molerat_training_anim" }
+		animation = { id = "retreat"		type = "molerat_retreat_anim" }
+
+		meshsettings = {
+			texture_diffuse = "molerat_d.dds"
+			texture_normal = "molerat_n.dds"
+			texture_specular = "molerat_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+}

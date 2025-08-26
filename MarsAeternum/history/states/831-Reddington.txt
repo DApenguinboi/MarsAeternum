@@ -1,0 +1,29 @@
+state={
+	id=831
+	name="STATE_831"
+	manpower = 4492600
+	resources={
+		steel=5 # was: 8
+	}
+	
+	state_category = large_city
+	
+	history={
+		owner = RED
+		victory_points = { 1217 30 }
+		buildings = {
+			infrastructure = 7
+			arms_factory = 6
+			industrial_complex = 1
+			anti_air_building = 5
+			air_base = 5
+		}
+		add_core_of = RED
+
+		
+	}
+	provinces={
+		822 1011 1217 2433 2742 7252 14608 14690
+	}
+	buildings_max_level_factor=1.000
+}

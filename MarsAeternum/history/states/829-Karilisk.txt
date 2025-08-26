@@ -1,0 +1,19 @@
+state={
+	id=829
+	name="STATE_829"
+		
+	state_category = rural
+	
+	history={
+		owner = FPK
+		controller = FPK
+		victory_points = {
+			8439 10
+		}
+	}
+	provinces={
+		2651 8439 8953 9977 9992
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

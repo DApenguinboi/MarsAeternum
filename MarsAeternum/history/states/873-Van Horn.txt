@@ -1,0 +1,21 @@
+state={
+	id=873
+	name="STATE_873"
+	
+	state_category = pastoral
+
+	history={
+		owner = CBA
+		victory_points = {
+			14788 10
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		133 658 823 869 1091 1166 1773 2467 3084 3131 4800 5304 5790 6125 7006 14765 14786 14788 14818
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

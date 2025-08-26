@@ -1,0 +1,286 @@
+### BASE INFANTRY
+entity = {
+	name = "ncr_gfx_infantry_entity"
+	pdxmesh = "ncr_trooper_mesh"
+	clone = "owb_infantry_melee_1_entity"
+
+}
+###BASIC MELEE
+entity = {
+	name = "ncr_gfx_infantry_1_entity"
+	pdxmesh = "ncr_trooper_mesh"
+	clone = "owb_infantry_melee_1_entity"
+
+}
+###PIPE
+entity = {
+	name = "ncr_gfx_infantry_2_entity"
+	clone = "owb_infantry_ballistic_1_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+###BASIC FIREARM
+entity = {
+	name = "ncr_gfx_infantry_3_entity"
+	clone = "owb_infantry_ballistic_2_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+###MELEE 2
+entity = {
+	name = "ncr_gfx_infantry_4_entity"
+	clone = "owb_infantry_melee_2_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+###BALLISTIC 2
+entity = {
+	name = "ncr_gfx_infantry_5_entity"
+	clone = "owb_infantry_ballistic_3_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+###MELEE 3
+entity = {
+	name = "ncr_gfx_infantry_6_entity"
+	clone = "owb_infantry_melee_3_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+###MELEE 4
+entity = {
+	name = "ncr_gfx_infantry_7_entity"
+	clone = "owb_infantry_melee_4_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+###BALLISTIC 3
+entity = {
+	name = "ncr_gfx_infantry_8_entity"
+	clone = "owb_infantry_ballistic_4_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+###BALLISTIC 4
+entity = {
+	name = "ncr_gfx_infantry_9_entity"
+	clone = "owb_infantry_ballistic_5_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+###LASER 1
+entity = {
+	name = "ncr_gfx_infantry_10_entity"
+	clone = "owb_infantry_laser_1_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+###LASER 2
+entity = {
+	name = "ncr_gfx_infantry_11_entity"
+	clone = "owb_infantry_laser_2_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+###LASER 3
+entity = {
+	name = "ncr_gfx_infantry_12_entity"
+	clone = "owb_infantry_laser_3_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+
+###LASER 4
+entity = {
+	name = "ncr_gfx_infantry_13_entity"
+	clone = "owb_infantry_laser_4_entity"
+	pdxmesh = "ncr_trooper_mesh"
+
+}
+
+### SPEC OPS
+### BASE INFANTRY
+entity = {
+	name = "ncr_gfx_spec_ops_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+	clone = "owb_infantry_melee_1_entity"
+
+}
+###BASIC MELEE
+entity = {
+	name = "ncr_gfx_spec_ops_1_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+	clone = "owb_infantry_melee_1_entity"
+
+}
+###PIPE
+entity = {
+	name = "ncr_gfx_spec_ops_2_entity"
+	clone = "owb_infantry_ballistic_1_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###BASIC FIREARM
+entity = {
+	name = "ncr_gfx_spec_ops_3_entity"
+	clone = "owb_infantry_ballistic_2_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###MELEE 2
+entity = {
+	name = "ncr_gfx_spec_ops_4_entity"
+	clone = "owb_infantry_melee_2_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###BALLISTIC 2
+entity = {
+	name = "ncr_gfx_spec_ops_5_entity"
+	clone = "owb_infantry_ballistic_3_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###MELEE 3
+entity = {
+	name = "ncr_gfx_spec_ops_6_entity"
+	clone = "owb_infantry_melee_3_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###MELEE 4
+entity = {
+	name = "ncr_gfx_spec_ops_7_entity"
+	clone = "owb_infantry_melee_4_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###BALLISTIC 3
+entity = {
+	name = "ncr_gfx_spec_ops_8_entity"
+	clone = "owb_infantry_ballistic_4_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###BALLISTIC 4
+entity = {
+	name = "ncr_gfx_spec_ops_9_entity"
+	clone = "owb_infantry_ballistic_5_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###LASER 1
+entity = {
+	name = "ncr_gfx_spec_ops_10_entity"
+	clone = "owb_infantry_laser_1_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###LASER 2
+entity = {
+	name = "ncr_gfx_spec_ops_11_entity"
+	clone = "owb_infantry_laser_2_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###LASER 3
+entity = {
+	name = "ncr_gfx_spec_ops_12_entity"
+	clone = "owb_infantry_laser_3_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+
+###LASER 4
+entity = {
+	name = "ncr_gfx_spec_ops_13_entity"
+	clone = "owb_infantry_laser_4_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+
+}
+###POWER ARMOR
+entity = {
+	name = "ncr_gfx_power_armour_entity"
+	pdxmesh = "NCR_powerarmor_t51_mesh"
+	clone = "power_armour_entity"
+
+}
+
+####ROBOTS
+####PROTECTRON
+entity = {
+	name = "ncr_gfx_support_robot_entity"
+	clone = "support_robot_0_entity"
+}
+####SECURITRON
+entity = {
+	clone = "combat_robot_entity"
+	name = "ncr_gfx_combat_robot_entity"
+}
+
+###TANKS
+#HEAVY
+entity = {
+	name = "ncr_gfx_heavy_armor_entity"
+	clone = "owb_heavy_armor_entity"
+}
+
+###MOTORIZED
+entity = {
+		name = "ncr_gfx_motorized_entity"
+		clone = "owb_motorized_entity"
+		attach = { 	name = "Human"			Human = "ncr_gfx_infantry_bike_entity" }
+}
+entity = {
+		name = "ncr_gfx_motorized_2_entity"
+		clone = "owb_motorized_2_entity"
+		attach = { 	name = "Human"			Human = "ncr_gfx_infantry_bike_2_entity" }
+}
+entity = {
+		name = "ncr_gfx_motorized_3_entity"
+		clone = "owb_motorized_3_entity"
+}
+entity = {
+		name = "ncr_gfx_motorized_4_entity"
+		clone = "owb_motorized_4_entity"
+}
+entity = {
+		name = "ncr_gfx_motorized_5_entity"
+		clone = "owb_motorized_5_entity"
+}
+entity = {
+	name = "ncr_gfx_infantry_mech_unit_entity"
+	clone = "infantry_mech_unit_entity"
+}
+entity = {
+		name = "ncr_gfx_motorized_6_entity"
+		clone = "owb_motorized_6_entity"
+}
+entity = {
+		name = "ncr_gfx_motorized_7_entity"
+		clone = "owb_motorized_7_entity"
+}
+entity = {
+		name = "ncr_gfx_motorized_8_entity"
+		clone = "owb_motorized_8_entity"
+}
+entity = {
+		name = "ncr_gfx_motorized_9_entity"
+		clone = "owb_motorized_9_entity"
+}
+entity = {
+		name = "ncr_gfx_motorized_10_entity"
+		clone = "owb_motorized_10_entity"
+}
+entity = {
+	clone = "owb_infantry_bike_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+	name = "ncr_gfx_infantry_bike_entity"
+
+}
+entity = {
+	clone = "owb_infantry_bike_2_entity"
+	pdxmesh = "NCR_spec_op_mesh"
+	name = "ncr_gfx_infantry_bike_2_entity"
+
+}

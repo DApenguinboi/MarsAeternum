@@ -22,9 +22,9 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 48
+	neutrality = 1
 	fascism = 50
-	democratic = 1
+	democratic = 48
 	communism = 1
 }
 
@@ -33,7 +33,7 @@ set_stability = 0.50
 create_country_leader = {
 	name = "Kurt Schuschnigg"
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
-	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
+	picture = "portrait_PER_mohammad_ali_foroughi.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
@@ -44,7 +44,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Karl Renner"
 	desc = "POLITICS_KARL_RENNER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "portrait_PER_qazi_muhammad.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -53,11 +53,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Arthur Seyss-Inquart"
+	name = "Armand Estigarriba"
 	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	picture = "portrait_BRA_protogenes_guimaraes.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = stratocracy
 	traits = {
 		#
 	}
@@ -66,9 +66,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Alfred Klahr"
 	desc = "POLITICS_ALFRED_KLAHR_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "portrait_PER_gholamali_bayandor.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = stratocratic_communism
 	traits = {
 		#
 	}
