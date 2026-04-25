@@ -1,0 +1,16 @@
+state={
+	id=885
+	name="STATE_885"
+	
+	history={
+		victory_points = {
+		}
+		owner = BBM
+		add_core_of = BBM
+	}
+	provinces={
+		78 560 709 2298 2415 3853 6427 6835 9929
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
