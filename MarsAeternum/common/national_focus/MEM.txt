@@ -1,0 +1,41 @@
+focus_tree = {
+	id = mem_focus
+	
+	country = {
+		base = 0
+		modifier = {
+			add = 10
+			tag = mem
+		}
+	}
+	focus = {
+		id = MEM_new_ceo
+		name = "New ceo"
+		icon = GFX_focus_generic_improve_the_administration
+		x = 1
+		y = 0
+		cost = 5
+		completion_reward = {
+			add_political_power = 150
+		}
+
+	}
+	focus = {
+		id = MEM_more_martian_exports
+		icon = goal_generic_production
+		cost = 5
+		relative_position_id = MEM_new_ceo
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = MEM_new_ceo
+		}
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = exports_to_earth
+			add_idea = limited_exports
+			}
+		}
+	}
+}
+

@@ -66,9 +66,10 @@ set_popularities = {
 #		#
 #	}
 #}
-
-
+add_ideas = {
+	exports_to_earth
 }
+
 
 
 1939.1.1 = {

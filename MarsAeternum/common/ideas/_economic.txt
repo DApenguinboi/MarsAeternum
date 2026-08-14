@@ -262,6 +262,16 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		
+		exports_to_earth = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+			consumer_goods_factor = -0.10
+			local_resources_factor = -0.50
+			}
+		}
+		
 		free_trade = {
 		
 			cost = 150
